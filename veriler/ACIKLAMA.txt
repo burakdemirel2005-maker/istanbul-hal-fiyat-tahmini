@@ -1,0 +1,104 @@
+İBB HAL FİYATLARI
+Sorgulanan dönem: 2016-01-01 – 2026-10-27
+Kaynak: https://halfiyatlaripublicdata.ibb.gov.tr/api/HalManager/getProductPricebyDay
+Katalog: https://data.ibb.gov.tr/tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi
+Lisans: https://data.ibb.gov.tr/license
+
+hal_tum_urunler: API tarafından dönen tüm hal türleri ve kayıtlar.
+hal_meyve_sebze: HalTurId=2 olan meyve, sebze ve ithal ürünler.
+CSV: UTF-8 BOM, virgül ayırıcı, nokta ondalık ayracı.
+Tarih sütunu GuneAit alanından üretilmiştir; diğer alanlar kaynak değerleridir.
+BirimTurId birim kodudur; tüm satırları kilogram olarak yorumlamayın.
+Fiyatlar alt ve üst fiyatlardır; gerçekleşmiş işlem ortalaması değildir.
+Sıfır fiyatlar, yinelenen kayıtlar ve ters fiyat aralıkları değiştirilmeden korunmuştur.
+Eksik günler doldurulmamıştır. Başarılı boş yanıtlar ile istek hataları ayrı listelenir.
+2026 yılı yalnızca sorgu bitiş tarihine kadardır.
+EPDK verisi ve model eğitimi bu dosyalara dahil değildir.
+Ham API yanıtları proje arşivinde saklanır: /Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/ham_yanitlar.sqlite
+
+Alanlar: Tarih=tarih; TabelaGId=ürün GUID; UrunAd=ürün adı; BirimTurId=birim kodu; KategoriId=kategori kodu; EnDusukFiyat=alt fiyat; EnYuksekFiyat=üst fiyat; GuneAit=kaynak tarih alanı; HalTurId=hal türü kodu.
+Meyve/sebze dosyasında veri bulunmayan gün sayısı: 1279
+Yinelenen anahtar sayısı, tarih+ürün GUID+birim+hal türü anahtarında ilk kayıttan sonra gelen ek satır sayısıdır; aynı fiyat anlamına gelmez.
+CSV dosyalarının tüm satırları ham JSON yanıtlarıyla alan alan karşılaştırılmıştır.
+
+{
+  "requested_days": 3953,
+  "nonempty_days": 3319,
+  "empty_days": 634,
+  "failed_days": 0,
+  "all_rows": 464540,
+  "fruit_vegetable_rows": 382897,
+  "fruit_vegetable_days": 2674,
+  "zero_price_rows": 10707,
+  "duplicate_key_rows": 2733,
+  "inverted_price_rows": 126,
+  "first_data_date": "2016-01-01",
+  "last_data_date": "2026-10-26",
+  "years": {
+    "2016": {
+      "all_rows": 58718,
+      "fruit_vegetable_rows": 40197,
+      "empty_days": 33
+    },
+    "2017": {
+      "all_rows": 53949,
+      "fruit_vegetable_rows": 39717,
+      "empty_days": 26
+    },
+    "2018": {
+      "all_rows": 50054,
+      "fruit_vegetable_rows": 39284,
+      "empty_days": 28
+    },
+    "2019": {
+      "all_rows": 47335,
+      "fruit_vegetable_rows": 37156,
+      "empty_days": 27
+    },
+    "2020": {
+      "all_rows": 44791,
+      "fruit_vegetable_rows": 35796,
+      "empty_days": 40
+    },
+    "2021": {
+      "all_rows": 43515,
+      "fruit_vegetable_rows": 35753,
+      "empty_days": 34
+    },
+    "2022": {
+      "all_rows": 44629,
+      "fruit_vegetable_rows": 36531,
+      "empty_days": 28
+    },
+    "2023": {
+      "all_rows": 39739,
+      "fruit_vegetable_rows": 36653,
+      "empty_days": 76
+    },
+    "2024": {
+      "all_rows": 32808,
+      "fruit_vegetable_rows": 32808,
+      "empty_days": 120
+    },
+    "2025": {
+      "all_rows": 29824,
+      "fruit_vegetable_rows": 29824,
+      "empty_days": 119
+    },
+    "2026": {
+      "all_rows": 19178,
+      "fruit_vegetable_rows": 19178,
+      "empty_days": 103
+    }
+  },
+  "sha256": {
+    "hal_tum_urunler_2016_2026.csv": "27af4516415de201143d4a32b341cc106e25202ea99543698465accce318fa17",
+    "hal_meyve_sebze_2016_2026.csv": "ab3411d2a60b854204a3e3de62836d473f1ac3ade50b18b4770bd8f7e0721b42",
+    "gunluk_erisim_durumu.csv": "5f3f3dc4e4a61762bf9cd8b80197506027fec518d5027576f1bc93d2a9308cb4"
+  },
+  "fruit_vegetable_quality": {
+    "duplicate_key_rows": 1761,
+    "zero_price_rows": 60,
+    "inverted_price_rows": 91
+  }
+}

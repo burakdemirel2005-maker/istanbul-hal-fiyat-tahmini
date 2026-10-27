@@ -1,0 +1,57 @@
+{
+  "calistirma_zamani": "2026-10-27T18:35:52.180502+03:00",
+  "temiz_gozlem": 380985,
+  "ozellik_sayisi": 54,
+  "kullanilabilir_ornek": 354896,
+  "dislanan_ornek": 26089,
+  "dislama_nedenleri": {
+    "yetersiz_kesintisiz_gecmis": 24289,
+    "sonraki_veri_gununde_ayni_seri_yok": 1696,
+    "gelecek_veri_gunu_henuz_bilinmiyor": 104
+  },
+  "sinirlar": {
+    "egitim_son_dahil": "2024-10-26",
+    "dogrulama_ilk_dahil": "2024-10-27",
+    "dogrulama_son_dahil": "2025-10-26",
+    "test_ilk_dahil": "2025-10-27",
+    "test_son_dahil": "2026-10-26"
+  },
+  "son_veri_tarihi": "2026-10-26",
+  "son_gun": {
+    "gozlem": 104,
+    "ozellik_hazir": 91
+  },
+  "bolumler": {
+    "egitim": {
+      "kayit": 303394,
+      "seri": 285,
+      "ilk_hedef": "2016-02-02",
+      "son_hedef": "2024-10-25",
+      "isaretli_mevcut": 198,
+      "isaretli_hedef": 198,
+      "isaretli_gecmis_penceresi": 3409
+    },
+    "dogrulama": {
+      "kayit": 30361,
+      "seri": 152,
+      "ilk_hedef": "2024-10-28",
+      "son_hedef": "2025-10-24",
+      "isaretli_mevcut": 8,
+      "isaretli_hedef": 8,
+      "isaretli_gecmis_penceresi": 129
+    },
+    "test": {
+      "kayit": 21141,
+      "seri": 123,
+      "ilk_hedef": "2025-10-27",
+      "son_hedef": "2026-10-26",
+      "isaretli_mevcut": 0,
+      "isaretli_hedef": 0,
+      "isaretli_gecmis_penceresi": 20
+    }
+  },
+  "egitimde_gorulmeyen": {
+    "dogrulama": 2,
+    "test": 4
+  }
+}

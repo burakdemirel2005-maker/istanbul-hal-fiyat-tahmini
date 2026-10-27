@@ -1,0 +1,26 @@
+{
+  "dogrulama_zamani": "2026-10-27T17:26:10.493641+00:00",
+  "durum": "BASARILI",
+  "ust_asama_dosya_sayisi": 31,
+  "manifesto_kontrolleri": [
+    {
+      "manifesto": "ciktilar/asama4/kaynak_manifestosu.json",
+      "dogrulanan_dosya_sayisi": 26
+    },
+    {
+      "manifesto": "ciktilar/asama5/kaynak_manifestosu.json",
+      "dogrulanan_dosya_sayisi": 17
+    },
+    {
+      "manifesto": "ciktilar/asama6/kaynak_manifestosu.json",
+      "dogrulanan_dosya_sayisi": 8
+    }
+  ],
+  "yuklenen_model_sayisi": 6,
+  "secilen_ana_model_kodu": "random_forest",
+  "dogrulama_tahmin_satiri": 30361,
+  "test_tahmin_satiri": 21141,
+  "son_gun_tahmin_satiri": 1196,
+  "karsilastirma_tablo_satiri": 16,
+  "streamlit_sayfa_sayisi": 6
+}

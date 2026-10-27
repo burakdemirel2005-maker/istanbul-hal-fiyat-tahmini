@@ -1,0 +1,483 @@
+{
+  "kayit_defteri_surumu": "4.0.0",
+  "olusturulma_zamani": "2026-10-27T16:59:16.144508+00:00",
+  "secilen_ana_model_kodu": "random_forest",
+  "secilen_ana_model_adi": "Random Forest",
+  "en_dusuk_dogrulama_mae_ml_modeli": "xgboost",
+  "secim_kriteri_aciklamasi": "Doğrulama kümesinde (2024-10-27 – 2025-10-26) Naive Baseline modelini hem hedef_min hem hedef_max için RMSE, MSE ve R² metriklerinde geçen ve en düşük ortalama doğrulama RMSE değerini üreten Random Forest modeli ana üretim modeli olarak kilitlenmiştir. XGBoost ise makine öğrenmesi modelleri arasında en düşük doğrulama MAE değerine sahiptir ve aynı şekilde Naive Baseline doğrulama RMSE değerini her iki hedefte geçmektedir.",
+  "min_max_tutarlilik_kurali": "Ayrı eğitilen hedef_min ve hedef_max modellerinin ham tahminlerinde tahmin_min > tahmin_max oluşursa deterministik olarak alt = min(tahmin_min, tahmin_max), üst = max(tahmin_min, tahmin_max) uygulanır ve TersAralikDuzeltildi bayrağı işaretlenir.",
+  "modeller": [
+    {
+      "model_kodu": "linear_regression",
+      "model_adi": "Linear Regression",
+      "surum": "4.0.0",
+      "hedef": "hedef_min",
+      "dayanak_sutun": "fiyat_min",
+      "hedef_formulasyonu": "delta = hedef_min - fiyat_min; tahmin = max(0.01, fiyat_min + delta_hat)",
+      "dosya_adi": "linear_regression_hedef_min.joblib",
+      "sha256": "d7f45b6b6f4722e12fed4b8636a52ff62552fc717c8d00bc5706f6f7704c01f5",
+      "boyut_bayt": 29557,
+      "egitim_tarih_araligi": {
+        "baslangic": "2016-02-01",
+        "bitis": "2024-10-24"
+      },
+      "egitim_toplam_ornek_sayisi": 303394,
+      "egitim_kullanilan_temiz_ornek_sayisi": 299836,
+      "egitim_seri_sayisi": 285,
+      "secilen_sayisal_ozellik_sayisi": 48,
+      "kategorik_ozellik_sayisi": 2,
+      "seri_gecmis_ozet_ozellik_sayisi": 4,
+      "cikarilan_asama2_ozellikleri": [
+        "tarih_yil",
+        "min_degisim_orani_1",
+        "min_degisim_orani_5",
+        "max_degisim_orani_1",
+        "max_degisim_orani_5",
+        "goreli_fiyat_araligi"
+      ],
+      "on_isleme_bilgisi": {
+        "seri_kodlayici": "SeriesHistoryStatsEncoder (yalnızca egitim.csv.gz üzerinde fit edildi)",
+        "sayisal_olcekleme": "StandardScaler",
+        "kategorik_kodlama": "OneHotEncoder(handle_unknown='ignore')",
+        "egitim_asiri_sicrama_filtresi": "IncelemeGerekli == False ve HedefIncelemeGerekli == False ve GecmisteIncelemeSayisi == 0"
+      },
+      "hiperparametreler": {
+        "fit_intercept": false,
+        "scale_numeric": true
+      },
+      "kutuphane_surumleri": {
+        "python": "3.14.7",
+        "numpy": "2.5.3",
+        "pandas": "3.0.6",
+        "scikit_learn": "1.9.1",
+        "xgboost": "3.4.1",
+        "joblib": "1.6.0"
+      },
+      "egitim_suresi_sn": 0.3466,
+      "dogrulama_performansi": {
+        "ornek_sayisi": 30361,
+        "mae": 0.7563311884773709,
+        "mse": 15.335493296348922,
+        "rmse": 3.9160558341715355,
+        "r2": 0.9940232517114614,
+        "baseline_mae_farki_tl": 0.17245713953300146,
+        "baseline_rmse_farki_tl": 0.00270041366448881,
+        "baseline_mae_iyilesme_yuzde": -29.536702281048438,
+        "baseline_rmse_iyilesme_yuzde": -0.06900507044000931,
+        "egitim_suresi_sn": 0.3466,
+        "ters_aralik_duzeltme_sayisi": 0
+      },
+      "test_performansi": {
+        "ornek_sayisi": 21141,
+        "mae": 5.078071540433736,
+        "mse": 247.28809595265741,
+        "rmse": 15.725396527676414,
+        "r2": 0.9763488573236881,
+        "baseline_mae_farki_tl": 0.008112692697110901,
+        "baseline_rmse_farki_tl": -0.6204181721085664,
+        "baseline_mae_iyilesme_yuzde": -0.16001496147710625,
+        "baseline_rmse_iyilesme_yuzde": 3.7955781556530654,
+        "ters_aralik_duzeltme_sayisi": 0
+      },
+      "kayit_zamani": "2026-10-27T16:59:16.144508+00:00"
+    },
+    {
+      "model_kodu": "linear_regression",
+      "model_adi": "Linear Regression",
+      "surum": "4.0.0",
+      "hedef": "hedef_max",
+      "dayanak_sutun": "fiyat_max",
+      "hedef_formulasyonu": "delta = hedef_max - fiyat_max; tahmin = max(0.01, fiyat_max + delta_hat)",
+      "dosya_adi": "linear_regression_hedef_max.joblib",
+      "sha256": "9c2cb006681dcf580d00b35199d3d8bcb249e533342b14ce11e74bcaadc1d8c4",
+      "boyut_bayt": 29545,
+      "egitim_tarih_araligi": {
+        "baslangic": "2016-02-01",
+        "bitis": "2024-10-24"
+      },
+      "egitim_toplam_ornek_sayisi": 303394,
+      "egitim_kullanilan_temiz_ornek_sayisi": 299836,
+      "egitim_seri_sayisi": 285,
+      "secilen_sayisal_ozellik_sayisi": 48,
+      "kategorik_ozellik_sayisi": 2,
+      "seri_gecmis_ozet_ozellik_sayisi": 4,
+      "cikarilan_asama2_ozellikleri": [
+        "tarih_yil",
+        "min_degisim_orani_1",
+        "min_degisim_orani_5",
+        "max_degisim_orani_1",
+        "max_degisim_orani_5",
+        "goreli_fiyat_araligi"
+      ],
+      "on_isleme_bilgisi": {
+        "seri_kodlayici": "SeriesHistoryStatsEncoder (yalnızca egitim.csv.gz üzerinde fit edildi)",
+        "sayisal_olcekleme": "StandardScaler",
+        "kategorik_kodlama": "OneHotEncoder(handle_unknown='ignore')",
+        "egitim_asiri_sicrama_filtresi": "IncelemeGerekli == False ve HedefIncelemeGerekli == False ve GecmisteIncelemeSayisi == 0"
+      },
+      "hiperparametreler": {
+        "fit_intercept": false,
+        "scale_numeric": true
+      },
+      "kutuphane_surumleri": {
+        "python": "3.14.7",
+        "numpy": "2.5.3",
+        "pandas": "3.0.6",
+        "scikit_learn": "1.9.1",
+        "xgboost": "3.4.1",
+        "joblib": "1.6.0"
+      },
+      "egitim_suresi_sn": 0.3414,
+      "dogrulama_performansi": {
+        "ornek_sayisi": 30361,
+        "mae": 0.9266923430541179,
+        "mse": 20.72466600938208,
+        "rmse": 4.552435173550753,
+        "r2": 0.9951706164822786,
+        "baseline_mae_farki_tl": 0.20444999267040187,
+        "baseline_rmse_farki_tl": 0.012198626820309144,
+        "baseline_mae_iyilesme_yuzde": -28.30767159552203,
+        "baseline_rmse_iyilesme_yuzde": -0.2686782218229076,
+        "egitim_suresi_sn": 0.3414,
+        "ters_aralik_duzeltme_sayisi": 0
+      },
+      "test_performansi": {
+        "ornek_sayisi": 21141,
+        "mae": 5.922035680037237,
+        "mse": 313.5851022319975,
+        "rmse": 17.708334259099512,
+        "r2": 0.9819790250282714,
+        "baseline_mae_farki_tl": -0.1306108362108116,
+        "baseline_rmse_farki_tl": -0.7903179200206196,
+        "baseline_mae_iyilesme_yuzde": 2.157912837965886,
+        "baseline_rmse_iyilesme_yuzde": 4.272300016066415,
+        "ters_aralik_duzeltme_sayisi": 0
+      },
+      "kayit_zamani": "2026-10-27T16:59:16.144508+00:00"
+    },
+    {
+      "model_kodu": "random_forest",
+      "model_adi": "Random Forest",
+      "surum": "4.0.0",
+      "hedef": "hedef_min",
+      "dayanak_sutun": "fiyat_min",
+      "hedef_formulasyonu": "delta = hedef_min - fiyat_min; tahmin = max(0.01, fiyat_min + delta_hat)",
+      "dosya_adi": "random_forest_hedef_min.joblib",
+      "sha256": "66746687b448f852e980b81d464a40c1cca89e4344f23ae66a00bb2e61555446",
+      "boyut_bayt": 284877,
+      "egitim_tarih_araligi": {
+        "baslangic": "2016-02-01",
+        "bitis": "2024-10-24"
+      },
+      "egitim_toplam_ornek_sayisi": 303394,
+      "egitim_kullanilan_temiz_ornek_sayisi": 299836,
+      "egitim_seri_sayisi": 285,
+      "secilen_sayisal_ozellik_sayisi": 48,
+      "kategorik_ozellik_sayisi": 2,
+      "seri_gecmis_ozet_ozellik_sayisi": 4,
+      "cikarilan_asama2_ozellikleri": [
+        "tarih_yil",
+        "min_degisim_orani_1",
+        "min_degisim_orani_5",
+        "max_degisim_orani_1",
+        "max_degisim_orani_5",
+        "goreli_fiyat_araligi"
+      ],
+      "on_isleme_bilgisi": {
+        "seri_kodlayici": "SeriesHistoryStatsEncoder (yalnızca egitim.csv.gz üzerinde fit edildi)",
+        "sayisal_olcekleme": "passthrough",
+        "kategorik_kodlama": "OneHotEncoder(handle_unknown='ignore')",
+        "egitim_asiri_sicrama_filtresi": "IncelemeGerekli == False ve HedefIncelemeGerekli == False ve GecmisteIncelemeSayisi == 0"
+      },
+      "hiperparametreler": {
+        "n_estimators": 80,
+        "max_depth": 8,
+        "min_samples_leaf": 50,
+        "max_features": "sqrt",
+        "random_state": 42,
+        "n_jobs": -1
+      },
+      "kutuphane_surumleri": {
+        "python": "3.14.7",
+        "numpy": "2.5.3",
+        "pandas": "3.0.6",
+        "scikit_learn": "1.9.1",
+        "xgboost": "3.4.1",
+        "joblib": "1.6.0"
+      },
+      "egitim_suresi_sn": 4.2684,
+      "dogrulama_performansi": {
+        "ornek_sayisi": 30361,
+        "mae": 0.6466692614037493,
+        "mse": 15.262663089536172,
+        "rmse": 3.9067458439903886,
+        "r2": 0.9940516360487313,
+        "baseline_mae_farki_tl": 0.0627952124593798,
+        "baseline_rmse_farki_tl": -0.006609576516658056,
+        "baseline_mae_iyilesme_yuzde": -10.754924383591302,
+        "baseline_rmse_iyilesme_yuzde": 0.16889793556757143,
+        "egitim_suresi_sn": 4.2684,
+        "ters_aralik_duzeltme_sayisi": 0
+      },
+      "test_performansi": {
+        "ornek_sayisi": 21141,
+        "mae": 5.100481596374054,
+        "mse": 266.5910404380741,
+        "rmse": 16.327615883467928,
+        "r2": 0.9745026839673091,
+        "baseline_mae_farki_tl": 0.030522748637428876,
+        "baseline_rmse_farki_tl": -0.018198816317053,
+        "baseline_mae_iyilesme_yuzde": -0.6020314869233131,
+        "baseline_rmse_iyilesme_yuzde": 0.11133624509576998,
+        "ters_aralik_duzeltme_sayisi": 0
+      },
+      "kayit_zamani": "2026-10-27T16:59:16.144508+00:00"
+    },
+    {
+      "model_kodu": "random_forest",
+      "model_adi": "Random Forest",
+      "surum": "4.0.0",
+      "hedef": "hedef_max",
+      "dayanak_sutun": "fiyat_max",
+      "hedef_formulasyonu": "delta = hedef_max - fiyat_max; tahmin = max(0.01, fiyat_max + delta_hat)",
+      "dosya_adi": "random_forest_hedef_max.joblib",
+      "sha256": "eb642797f60413192cfd99635606255009e04b859584ebe7728771325c88ac29",
+      "boyut_bayt": 301821,
+      "egitim_tarih_araligi": {
+        "baslangic": "2016-02-01",
+        "bitis": "2024-10-24"
+      },
+      "egitim_toplam_ornek_sayisi": 303394,
+      "egitim_kullanilan_temiz_ornek_sayisi": 299836,
+      "egitim_seri_sayisi": 285,
+      "secilen_sayisal_ozellik_sayisi": 48,
+      "kategorik_ozellik_sayisi": 2,
+      "seri_gecmis_ozet_ozellik_sayisi": 4,
+      "cikarilan_asama2_ozellikleri": [
+        "tarih_yil",
+        "min_degisim_orani_1",
+        "min_degisim_orani_5",
+        "max_degisim_orani_1",
+        "max_degisim_orani_5",
+        "goreli_fiyat_araligi"
+      ],
+      "on_isleme_bilgisi": {
+        "seri_kodlayici": "SeriesHistoryStatsEncoder (yalnızca egitim.csv.gz üzerinde fit edildi)",
+        "sayisal_olcekleme": "passthrough",
+        "kategorik_kodlama": "OneHotEncoder(handle_unknown='ignore')",
+        "egitim_asiri_sicrama_filtresi": "IncelemeGerekli == False ve HedefIncelemeGerekli == False ve GecmisteIncelemeSayisi == 0"
+      },
+      "hiperparametreler": {
+        "n_estimators": 80,
+        "max_depth": 8,
+        "min_samples_leaf": 50,
+        "max_features": "sqrt",
+        "random_state": 42,
+        "n_jobs": -1
+      },
+      "kutuphane_surumleri": {
+        "python": "3.14.7",
+        "numpy": "2.5.3",
+        "pandas": "3.0.6",
+        "scikit_learn": "1.9.1",
+        "xgboost": "3.4.1",
+        "joblib": "1.6.0"
+      },
+      "egitim_suresi_sn": 4.1382,
+      "dogrulama_performansi": {
+        "ornek_sayisi": 30361,
+        "mae": 0.807364526593019,
+        "mse": 20.52557724663703,
+        "rmse": 4.53051622297471,
+        "r2": 0.9952170093162538,
+        "baseline_mae_farki_tl": 0.08512217620930307,
+        "baseline_rmse_farki_tl": -0.00972032375573395,
+        "baseline_mae_iyilesme_yuzde": -11.785819007162763,
+        "baseline_rmse_iyilesme_yuzde": 0.21409289264309012,
+        "egitim_suresi_sn": 4.1382,
+        "ters_aralik_duzeltme_sayisi": 0
+      },
+      "test_performansi": {
+        "ornek_sayisi": 21141,
+        "mae": 6.066558353827604,
+        "mse": 341.175114870369,
+        "rmse": 18.470926204994946,
+        "r2": 0.9803934939437687,
+        "baseline_mae_farki_tl": 0.013911837579555275,
+        "baseline_rmse_farki_tl": -0.02772597412518607,
+        "baseline_mae_iyilesme_yuzde": -0.22984718407410035,
+        "baseline_rmse_iyilesme_yuzde": 0.14988105001769284,
+        "ters_aralik_duzeltme_sayisi": 0
+      },
+      "kayit_zamani": "2026-10-27T16:59:16.144508+00:00"
+    },
+    {
+      "model_kodu": "xgboost",
+      "model_adi": "XGBoost",
+      "surum": "4.0.0",
+      "hedef": "hedef_min",
+      "dayanak_sutun": "fiyat_min",
+      "hedef_formulasyonu": "delta = hedef_min - fiyat_min; tahmin = max(0.01, fiyat_min + delta_hat)",
+      "dosya_adi": "xgboost_hedef_min.joblib",
+      "sha256": "13ef9ab41ea6536808ca2e081f6762157eb3312e0fc90c9ae00673e3c432cda6",
+      "boyut_bayt": 47063,
+      "egitim_tarih_araligi": {
+        "baslangic": "2016-02-01",
+        "bitis": "2024-10-24"
+      },
+      "egitim_toplam_ornek_sayisi": 303394,
+      "egitim_kullanilan_temiz_ornek_sayisi": 299836,
+      "egitim_seri_sayisi": 285,
+      "secilen_sayisal_ozellik_sayisi": 48,
+      "kategorik_ozellik_sayisi": 2,
+      "seri_gecmis_ozet_ozellik_sayisi": 4,
+      "cikarilan_asama2_ozellikleri": [
+        "tarih_yil",
+        "min_degisim_orani_1",
+        "min_degisim_orani_5",
+        "max_degisim_orani_1",
+        "max_degisim_orani_5",
+        "goreli_fiyat_araligi"
+      ],
+      "on_isleme_bilgisi": {
+        "seri_kodlayici": "SeriesHistoryStatsEncoder (yalnızca egitim.csv.gz üzerinde fit edildi)",
+        "sayisal_olcekleme": "passthrough",
+        "kategorik_kodlama": "OneHotEncoder(handle_unknown='ignore')",
+        "egitim_asiri_sicrama_filtresi": "IncelemeGerekli == False ve HedefIncelemeGerekli == False ve GecmisteIncelemeSayisi == 0"
+      },
+      "hiperparametreler": {
+        "n_estimators": 35,
+        "max_depth": 4,
+        "learning_rate": 0.02,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "min_child_weight": 50,
+        "reg_lambda": 50.0,
+        "reg_alpha": 1.0,
+        "base_score": 0.0,
+        "objective": "reg:squarederror",
+        "random_state": 42,
+        "n_jobs": -1
+      },
+      "kutuphane_surumleri": {
+        "python": "3.14.7",
+        "numpy": "2.5.3",
+        "pandas": "3.0.6",
+        "scikit_learn": "1.9.1",
+        "xgboost": "3.4.1",
+        "joblib": "1.6.0"
+      },
+      "egitim_suresi_sn": 0.3176,
+      "dogrulama_performansi": {
+        "ornek_sayisi": 30361,
+        "mae": 0.609758921377799,
+        "mse": 15.301559997915612,
+        "rmse": 3.911720848669497,
+        "r2": 0.9940364766387212,
+        "baseline_mae_farki_tl": 0.025884872433429518,
+        "baseline_rmse_farki_tl": -0.0016345718375494478,
+        "baseline_mae_iyilesme_yuzde": -4.433297297632728,
+        "baseline_rmse_iyilesme_yuzde": 0.041769061634009695,
+        "egitim_suresi_sn": 0.3176,
+        "ters_aralik_duzeltme_sayisi": 0
+      },
+      "test_performansi": {
+        "ornek_sayisi": 21141,
+        "mae": 5.090925227220193,
+        "mse": 267.43600795318264,
+        "rmse": 16.353470822830932,
+        "r2": 0.9744218695343309,
+        "baseline_mae_farki_tl": 0.02096637948356772,
+        "baseline_rmse_farki_tl": 0.007656123045951091,
+        "baseline_mae_iyilesme_yuzde": -0.41354141351517504,
+        "baseline_rmse_iyilesme_yuzde": -0.04683843042740355,
+        "ters_aralik_duzeltme_sayisi": 0
+      },
+      "kayit_zamani": "2026-10-27T16:59:16.144508+00:00"
+    },
+    {
+      "model_kodu": "xgboost",
+      "model_adi": "XGBoost",
+      "surum": "4.0.0",
+      "hedef": "hedef_max",
+      "dayanak_sutun": "fiyat_max",
+      "hedef_formulasyonu": "delta = hedef_max - fiyat_max; tahmin = max(0.01, fiyat_max + delta_hat)",
+      "dosya_adi": "xgboost_hedef_max.joblib",
+      "sha256": "701e66403b5160b9c593de19477e988a143f2777e81a623ddbeb7a606bb646f1",
+      "boyut_bayt": 48079,
+      "egitim_tarih_araligi": {
+        "baslangic": "2016-02-01",
+        "bitis": "2024-10-24"
+      },
+      "egitim_toplam_ornek_sayisi": 303394,
+      "egitim_kullanilan_temiz_ornek_sayisi": 299836,
+      "egitim_seri_sayisi": 285,
+      "secilen_sayisal_ozellik_sayisi": 48,
+      "kategorik_ozellik_sayisi": 2,
+      "seri_gecmis_ozet_ozellik_sayisi": 4,
+      "cikarilan_asama2_ozellikleri": [
+        "tarih_yil",
+        "min_degisim_orani_1",
+        "min_degisim_orani_5",
+        "max_degisim_orani_1",
+        "max_degisim_orani_5",
+        "goreli_fiyat_araligi"
+      ],
+      "on_isleme_bilgisi": {
+        "seri_kodlayici": "SeriesHistoryStatsEncoder (yalnızca egitim.csv.gz üzerinde fit edildi)",
+        "sayisal_olcekleme": "passthrough",
+        "kategorik_kodlama": "OneHotEncoder(handle_unknown='ignore')",
+        "egitim_asiri_sicrama_filtresi": "IncelemeGerekli == False ve HedefIncelemeGerekli == False ve GecmisteIncelemeSayisi == 0"
+      },
+      "hiperparametreler": {
+        "n_estimators": 35,
+        "max_depth": 4,
+        "learning_rate": 0.02,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "min_child_weight": 50,
+        "reg_lambda": 50.0,
+        "reg_alpha": 1.0,
+        "base_score": 0.0,
+        "objective": "reg:squarederror",
+        "random_state": 42,
+        "n_jobs": -1
+      },
+      "kutuphane_surumleri": {
+        "python": "3.14.7",
+        "numpy": "2.5.3",
+        "pandas": "3.0.6",
+        "scikit_learn": "1.9.1",
+        "xgboost": "3.4.1",
+        "joblib": "1.6.0"
+      },
+      "egitim_suresi_sn": 0.3182,
+      "dogrulama_performansi": {
+        "ornek_sayisi": 30361,
+        "mae": 0.7557015867827674,
+        "mse": 20.584779515158072,
+        "rmse": 4.537045240589746,
+        "r2": 0.9952032136555817,
+        "baseline_mae_farki_tl": 0.03345923639905146,
+        "baseline_rmse_farki_tl": -0.003191306140697847,
+        "baseline_mae_iyilesme_yuzde": -4.632688235642108,
+        "baseline_rmse_iyilesme_yuzde": 0.07028942452339844,
+        "egitim_suresi_sn": 0.3182,
+        "ters_aralik_duzeltme_sayisi": 0
+      },
+      "test_performansi": {
+        "ornek_sayisi": 21141,
+        "mae": 6.074912466830278,
+        "mse": 343.05073735163313,
+        "rmse": 18.521628906541483,
+        "r2": 0.9802857064706053,
+        "baseline_mae_farki_tl": 0.02226595058222891,
+        "baseline_rmse_farki_tl": 0.022976727421351484,
+        "baseline_mae_iyilesme_yuzde": -0.36787131914042887,
+        "baseline_rmse_iyilesme_yuzde": -0.12420757576752464,
+        "ters_aralik_duzeltme_sayisi": 0
+      },
+      "kayit_zamani": "2026-10-27T16:59:16.144508+00:00"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "durum": "basarili",
+  "kontroller": [
+    "Orijinal CSV, Aşama 1, Aşama 2 ve Aşama 3 dosyalarının SHA-256 özetleri tam eşleşiyor.",
+    "Doğrulama (30.361) ve test (21.141) tahmin kayıtları, Aşama 1/2 kaynakları ve hata dizileri bağımsız doğrulandı.",
+    "seri_metrikleri.csv içindeki 550 seri-hedef satırının tamamı bağımsız hesapla birebir eşleşti.",
+    "kapsam_ozeti.csv ve ozet.json içindeki satır ağırlıklı ve seri eşit ağırlıklı metrikler doğrulandı."
+  ],
+  "dogrulanan_dogrulama_ornegi": 30361,
+  "dogrulanan_test_ornegi": 21141,
+  "dogrulanan_seri_metrik_satiri": 550,
+  "dogrulanan_kapsam_ozeti_satiri": 54
+}

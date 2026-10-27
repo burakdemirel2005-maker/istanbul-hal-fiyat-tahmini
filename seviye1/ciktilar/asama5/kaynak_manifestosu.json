@@ -1,0 +1,93 @@
+{
+  "asama": "asama5_karsilastirma",
+  "olusturulma_zamani": "2026-10-27T17:01:20.997092+00:00",
+  "girdiler": [
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama4/dogrulama_tum_modeller_tahminleri.csv.gz",
+      "boyut_bayt": 2758541,
+      "sha256": "e3f3bfa2a821ea04e4572458bd2301916779228db84476ea636ad296fa07082e"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama4/test_tum_modeller_tahminleri.csv.gz",
+      "boyut_bayt": 1472700,
+      "sha256": "7ac71dc73f4e866a31cdc98d871aa865c001c91a7e0fe3118920cb01fc4553aa"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama4/model_kayit_defteri.json",
+      "boyut_bayt": 18677,
+      "sha256": "bca24f83efe08ab9b622bcc1daefecae6f0db3746a6fbf0093ca8eecc74625cd"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama4/ozet.json",
+      "boyut_bayt": 10845,
+      "sha256": "7a6603ad4320138e6b55bcdab582e262c49c8f2b4cda7118a71eb10881163d09"
+    }
+  ],
+  "ciktilar": [
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/model_karsilastirma_ozeti.csv",
+      "boyut_bayt": 5101,
+      "sha256": "d8c8598d339cfdb1b16eaaec29f664d72b6641187e6eaa98c4e6cabe02d77622"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/alt_grup_karsilastirma.csv",
+      "boyut_bayt": 26936,
+      "sha256": "7531ac2003a890eb6e1752df0d40bd2e0fc4b03b524c248d42c42a57daf7be4c"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/seri_bazli_model_karsilastirma.csv",
+      "boyut_bayt": 776124,
+      "sha256": "33c4a763c6fe6b015073cc7609a465b1f782ab62b19cd6a3a63545af6eb90585"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/aylik_hata_analizi.csv",
+      "boyut_bayt": 24348,
+      "sha256": "5bb271da1caa33dc32a677ea2676402671245631431fc33fc070a38f99243bf4"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/ozellik_onemleri.csv",
+      "boyut_bayt": 43371,
+      "sha256": "212b46e52de3f4b7a423f1cfeb43eee4207cde01d0af248f040235b6a6693019"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/ozet.json",
+      "boyut_bayt": 15314,
+      "sha256": "192935cbe0ed267d0bd6ad6136789cdfb6d67ae90202bb287391f599475ca625"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/ASAMA5_RAPORU.md",
+      "boyut_bayt": 8027,
+      "sha256": "74e1d8a71e71306359c576ebdf732c49dbb83765a7e8599a0b5420b252e1da98"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/grafikler/model_mae_karsilastirma.png",
+      "boyut_bayt": 84689,
+      "sha256": "65a173c09d06ea40da41d1c29bc5230cf2c6b7e49858207b2765d37f3a702c39"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/grafikler/model_rmse_karsilastirma.png",
+      "boyut_bayt": 88831,
+      "sha256": "2a91d1a1753f420a4a818b76351b139cf94bb223cabfcb030bbdcb796fb77057"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/grafikler/gercek_vs_tahmin_ornek_urunler.png",
+      "boyut_bayt": 455801,
+      "sha256": "b0896ebc0abbffc366a23d164c26d189fc8edd3a3460b35d12794a380a490026"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/grafikler/zamana_gore_hata_degisimi.png",
+      "boyut_bayt": 276846,
+      "sha256": "1463a7ee8500c4f5156ba75d7d44018fcb34ff153f9952570f08b255ebdb6a9a"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/grafikler/urun_bazli_hata_dagilimi.png",
+      "boyut_bayt": 86391,
+      "sha256": "f714df6abe74241f7a58da16d5aedd7ec7ab0233cf1b04e6b48327e7f4f83d87"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/grafikler/ozellik_onem_duzeyleri.png",
+      "boyut_bayt": 106645,
+      "sha256": "eca53d07839ef6d3d57f9785d9a8635c8f7bf8f0d7c2c94100e4fcecef232b1c"
+    }
+  ]
+}

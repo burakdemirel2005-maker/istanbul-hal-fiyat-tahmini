@@ -1,0 +1,171 @@
+[
+  {
+    "kaynak": "open_meteo",
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=36.89&longitude=30.70&start_date=2016-01-04&end_date=2016-01-10&daily=temperature_2m_mean,temperature_2m_min,temperature_2m_max,precipitation_sum&models=era5&timezone=Europe%2FIstanbul",
+    "denetim_utc": "2026-10-27T15:07:57.901660+00:00",
+    "http": 200,
+    "son_url": "https://archive-api.open-meteo.com/v1/archive?latitude=36.89&longitude=30.70&start_date=2016-01-04&end_date=2016-01-10&daily=temperature_2m_mean,temperature_2m_min,temperature_2m_max,precipitation_sum&models=era5&timezone=Europe%2FIstanbul",
+    "byte": 658,
+    "sha256": "2d0d706ee34c5fa34b597ac036f7427f4972bff49983236d308425e4953ab0d3",
+    "gun": 7,
+    "ilk": "2016-01-04",
+    "son": "2016-01-10",
+    "birimler": {
+      "time": "iso8601",
+      "temperature_2m_mean": "°C",
+      "temperature_2m_min": "°C",
+      "temperature_2m_max": "°C",
+      "precipitation_sum": "mm"
+    },
+    "ilk_kayit": {
+      "time": "2016-01-04",
+      "temperature_2m_mean": 8.3,
+      "temperature_2m_min": 6.0,
+      "temperature_2m_max": 9.9,
+      "precipitation_sum": 45.1
+    }
+  },
+  {
+    "kaynak": "nasa_power",
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MIN,T2M_MAX,PRECTOTCORR&community=AG&longitude=30.70&latitude=36.89&start=20160104&end=20160110&format=JSON&time-standard=UTC",
+    "denetim_utc": "2026-10-27T15:07:57.902612+00:00",
+    "http": 200,
+    "son_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2M_MIN,T2M_MAX,PRECTOTCORR&community=AG&longitude=30.70&latitude=36.89&start=20160104&end=20160110&format=JSON&time-standard=UTC",
+    "byte": 1174,
+    "sha256": "4708b0dff0f2c8c617773bac8511bb2568c58069693e598ed4cbc3569ef8a6a0",
+    "parametreler": [
+      "T2M",
+      "T2M_MIN",
+      "T2M_MAX",
+      "PRECTOTCORR"
+    ],
+    "ilk_kayit": {
+      "T2M": [
+        "20160104",
+        7.96
+      ],
+      "T2M_MIN": [
+        "20160104",
+        5.36
+      ],
+      "T2M_MAX": [
+        "20160104",
+        11.68
+      ],
+      "PRECTOTCORR": [
+        "20160104",
+        41.0
+      ]
+    },
+    "baslik": {
+      "title": "NASA/POWER Source Native Resolution Daily Data",
+      "api": {
+        "version": "v2.10.1",
+        "name": "POWER Daily API"
+      },
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "fill_value": -999.0,
+      "time_standard": "UTC",
+      "start": "20160104",
+      "end": "20160110"
+    }
+  },
+  {
+    "kaynak": "tcmb_xml",
+    "url": "https://www.tcmb.gov.tr/kurlar/202610/05102026.xml",
+    "denetim_utc": "2026-10-27T15:07:57.902748+00:00",
+    "http": 200,
+    "son_url": "https://www.tcmb.gov.tr/kurlar/202610/05102026.xml",
+    "byte": 9096,
+    "sha256": "6b33f4bc67aee7fb5bc1d775c25d56ec9de09a2bd3f6f3afa449e17171d7ff95",
+    "tarih": {
+      "Tarih": "05.10.2026",
+      "Date": "10/05/2026",
+      "Bulten_No": "2026/187"
+    },
+    "kurlar": {
+      "USD": {
+        "Unit": "1",
+        "ForexBuying": "49.0732",
+        "ForexSelling": "49.1616"
+      },
+      "EUR": {
+        "Unit": "1",
+        "ForexBuying": "54.9767",
+        "ForexSelling": "55.0757"
+      }
+    }
+  },
+  {
+    "kaynak": "ibb_categories",
+    "url": "https://halfiyatlaripublicdata.ibb.gov.tr/api/HalManager/getCategories",
+    "denetim_utc": "2026-10-27T15:07:58.517721+00:00",
+    "http": 200,
+    "son_url": "https://halfiyatlaripublicdata.ibb.gov.tr/api/HalManager/getCategories",
+    "byte": 395,
+    "sha256": "b91534926f64e8c0344c596cdd6eb4e77143a773e4f81af60c04aafb94e922d4",
+    "yanit": {
+      "ResponseStatus": true,
+      "ErrorGUID": null,
+      "Message": null,
+      "Results": [
+        {
+          "Id": 4,
+          "HalId": 1,
+          "Kategori": "Diğer Su Ürünleri"
+        },
+        {
+          "Id": 2,
+          "HalId": 1,
+          "Kategori": "Dip Balıkları"
+        },
+        {
+          "Id": 3,
+          "HalId": 1,
+          "Kategori": "İç Su Balıkları"
+        },
+        {
+          "Id": 7,
+          "HalId": 2,
+          "Kategori": "İthal Ürünler"
+        },
+        {
+          "Id": 5,
+          "HalId": 2,
+          "Kategori": "Meyve"
+        },
+        {
+          "Id": 1,
+          "HalId": 1,
+          "Kategori": "Pelajik Balıklar"
+        },
+        {
+          "Id": 6,
+          "HalId": 2,
+          "Kategori": "Sebze"
+        }
+      ]
+    }
+  },
+  {
+    "kaynak": "ibb_catalog",
+    "url": "https://data.ibb.gov.tr/tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi",
+    "denetim_utc": "2026-10-27T15:07:58.845809+00:00",
+    "http": 200,
+    "son_url": "https://data.ibb.gov.tr/tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi",
+    "byte": 33500,
+    "sha256": "566061561a68394dfef6720c12e8b6b78bb023e93134e6c9c114868a7b5a5cc2"
+  },
+  {
+    "kaynak": "ibb_license",
+    "url": "https://data.ibb.gov.tr/license",
+    "denetim_utc": "2026-10-27T15:07:59.554008+00:00",
+    "http": 200,
+    "son_url": "https://data.ibb.gov.tr/license",
+    "byte": 28496,
+    "sha256": "3932d8a6a730e0662b9c9435d406c604bd41d3ee0490e58f73466240707eca63"
+  }
+]

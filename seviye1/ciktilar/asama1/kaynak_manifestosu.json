@@ -1,0 +1,24 @@
+{
+  "kaynak_once": {
+    "/Users/burakdemirel/Desktop/IBB_Hal_Meyve_Sebze_2016_2026.csv": "ab3411d2a60b854204a3e3de62836d473f1ac3ade50b18b4770bd8f7e0721b42",
+    "/Users/burakdemirel/Desktop/IBB_Hal_Tum_Urunler_2016_2026.csv": "27af4516415de201143d4a32b341cc106e25202ea99543698465accce318fa17"
+  },
+  "kaynak_sonra": {
+    "/Users/burakdemirel/Desktop/IBB_Hal_Meyve_Sebze_2016_2026.csv": "ab3411d2a60b854204a3e3de62836d473f1ac3ade50b18b4770bd8f7e0721b42",
+    "/Users/burakdemirel/Desktop/IBB_Hal_Tum_Urunler_2016_2026.csv": "27af4516415de201143d4a32b341cc106e25202ea99543698465accce318fa17"
+  },
+  "kaynaklar_degismedi": true,
+  "kod_sha256": "5b61c3d2569ea31671d5a565f5b0b07076ed64635460f8baffab05ac77f74492",
+  "cikti_sha256": {
+    "ASAMA1_RAPORU.md": "2772c51dc38277bb4673dc1f320563ed10db5337da2c118ad859162ea2c28788",
+    "ad_birim_iliskileri.csv": "d85426e753cf782ba46b1091a535c684ef5c478e1a2996bf157673f23607b5c6",
+    "dislanan_kayitlar.csv": "683df9724bdae6e20a575f16d5efe3d61141fd85256b068c9864263d03ddb6a0",
+    "inceleme_bekleyen.csv": "cfff760f60b8927783265307484303fafa1926520992b9c2e7d42aac66c44290",
+    "ozet.json": "2fac021ce7ae8c7ba14e213f8dbd1222b02bcd185f38660f73843ecd468525e5",
+    "temiz_veri.csv": "cf650544ac30576d1c61c0b7733a99a4e7b88eef6a47792a3a045f71153314d2",
+    "urun_serileri.csv": "1c078ebed214e2f9c851d601f053125743407ecfa1a3e2e52a6845f3ef38022a",
+    "veri_gunleri.csv": "c7ac17851b34489e3a7c05973b531a7d30a2f630a8a1bccfe2b726172996b42d",
+    "veri_sozlesmesi.json": "44a405e56e88ca5163b74447e332dcd68a1a7ab50011afaad571c70e0ad71a5b",
+    "yillik_kapsam.csv": "67f2547daa03f71f79ca6e08fec2f90d31f4df37c3a6296db29fc689f5e31a2d"
+  }
+}

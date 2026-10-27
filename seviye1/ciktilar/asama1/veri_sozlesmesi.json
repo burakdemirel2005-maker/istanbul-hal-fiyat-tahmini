@@ -1,0 +1,50 @@
+{
+  "surum": "1.0",
+  "asama": 1,
+  "kaynak_kapsami": "Yalnızca ana İBB meyve-sebze CSV",
+  "tahmin_hedefi": "Bir sonraki hal işlem gününün minimum ve maksimum fiyatları",
+  "gozlem_anahtari": [
+    "Tarih",
+    "TabelaGId",
+    "BirimTurId",
+    "HalTurId"
+  ],
+  "seri_anahtari": [
+    "TabelaGId",
+    "BirimTurId",
+    "HalTurId",
+    "KategoriId",
+    "AdDonemi"
+  ],
+  "veri_gunu_takvimi": "veri_gunleri.csv, ham kaynağa göre; resmi işlem takvimi değildir",
+  "birimler": "BirimTurId kodları korunur; birim adı doğrulanmadı",
+  "kategori_sozlugu": {
+    "5": "Meyve",
+    "6": "Sebze",
+    "7": "İthal Ürünler"
+  },
+  "inceleme_kurallari": {
+    "alt_ust_orani": 10.0,
+    "onceki_gozleme_gore_kat": 3.0
+  },
+  "inceleme_isaretleri_otomatik_silme_degil": true,
+  "test_donemi": {
+    "baslangic_dahil": "2025-10-27",
+    "bitis_dahil": "2026-10-26",
+    "ay_sayisi": 12,
+    "ayirma_anahtari": "hedef_tarihi (sonraki aşama)",
+    "hiperparametre_seciminde_kullanilamaz": true,
+    "henuz_fiziksel_ayrim_yapilmadi": true
+  },
+  "orijinal_fiyatlar_degistirildi": false,
+  "harici_veri_kullanildi": false,
+  "hedef_ve_model_ozelligi_uretildi": false,
+  "model_girdisi_yapilmayacak_alanlar": [
+    "KaynakKayitNo",
+    "UrunAdHam",
+    "IncelemeGerekli",
+    "IncelemeNedeni",
+    "BirimAciklamasi"
+  ],
+  "sonraki_asama_kullanici_onayi_gerektirir": true
+}

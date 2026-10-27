@@ -1,0 +1,385 @@
+ModelKodu,ModelAdi,Hedef,Sira,OzellikAdi,OnemOlcutu,HamDeger,NormalizeOnem
+linear_regression,Linear Regression,hedef_min,1,min_rolling_5_mean,mutlak_standart_katsayi,5.657079328356946,0.1400770586463991
+linear_regression,Linear Regression,hedef_min,2,min_lag_5,mutlak_standart_katsayi,2.894885614090701,0.07168134622170423
+linear_regression,Linear Regression,hedef_min,3,min_rolling_10_min,mutlak_standart_katsayi,2.3370472710569246,0.057868502215670525
+linear_regression,Linear Regression,hedef_min,4,min_rolling_20_mean,mutlak_standart_katsayi,2.2770498881267285,0.05638288456042288
+linear_regression,Linear Regression,hedef_min,5,max_rolling_5_max,mutlak_standart_katsayi,2.192727318913724,0.05429494186291511
+linear_regression,Linear Regression,hedef_min,6,min_rolling_10_max,mutlak_standart_katsayi,1.9745601384266447,0.04889282264874384
+linear_regression,Linear Regression,hedef_min,7,min_rolling_5_min,mutlak_standart_katsayi,1.8632464414770047,0.046136542534798375
+linear_regression,Linear Regression,hedef_min,8,min_lag_1,mutlak_standart_katsayi,1.7965549273086743,0.044485168990406575
+linear_regression,Linear Regression,hedef_min,9,fiyat_min,mutlak_standart_katsayi,1.7951497813830088,0.044450375646206935
+linear_regression,Linear Regression,hedef_min,10,min_lag_10,mutlak_standart_katsayi,1.6241050603996323,0.04021507328934495
+linear_regression,Linear Regression,hedef_min,11,fiyat_orta,mutlak_standart_katsayi,1.487970019736678,0.03684418259329506
+linear_regression,Linear Regression,hedef_min,12,min_rolling_10_mean,mutlak_standart_katsayi,1.3473620955459704,0.033362537154052
+linear_regression,Linear Regression,hedef_min,13,max_rolling_20_min,mutlak_standart_katsayi,1.24541156163105,0.030838101824561964
+linear_regression,Linear Regression,hedef_min,14,fiyat_max,mutlak_standart_katsayi,1.2295482543355352,0.03044530453511595
+linear_regression,Linear Regression,hedef_min,15,max_lag_1,mutlak_standart_katsayi,1.2259502061145102,0.03035621191639613
+linear_regression,Linear Regression,hedef_min,16,max_rolling_10_min,mutlak_standart_katsayi,1.1359582583380012,0.028127887614276967
+linear_regression,Linear Regression,hedef_min,17,max_rolling_5_mean,mutlak_standart_katsayi,1.0832916954051413,0.026823791136847297
+linear_regression,Linear Regression,hedef_min,18,max_rolling_10_max,mutlak_standart_katsayi,1.0492947207381973,0.02598197932233898
+linear_regression,Linear Regression,hedef_min,19,min_lag_2,mutlak_standart_katsayi,1.0110424936404012,0.025034801609685332
+linear_regression,Linear Regression,hedef_min,20,fiyat_araligi,mutlak_standart_katsayi,0.8420092362471823,0.020849305855653047
+linear_regression,Linear Regression,hedef_min,21,max_rolling_10_mean,mutlak_standart_katsayi,0.7686702928243624,0.019033332827414283
+linear_regression,Linear Regression,hedef_min,22,max_rolling_20_mean,mutlak_standart_katsayi,0.699209860109936,0.017313397054519807
+linear_regression,Linear Regression,hedef_min,23,max_lag_20,mutlak_standart_katsayi,0.6149853442822768,0.015227882293587118
+linear_regression,Linear Regression,hedef_min,24,max_lag_2,mutlak_standart_katsayi,0.3686347046176187,0.009127901897889389
+linear_regression,Linear Regression,hedef_min,25,min_lag_20,mutlak_standart_katsayi,0.2547569140159881,0.006308131301308413
+linear_regression,Linear Regression,hedef_min,26,max_rolling_20_std,mutlak_standart_katsayi,0.1457123037686967,0.003608036892499765
+linear_regression,Linear Regression,hedef_min,27,max_rolling_10_std,mutlak_standart_katsayi,0.14400133534119663,0.0035656709628654223
+linear_regression,Linear Regression,hedef_min,28,min_rolling_20_max,mutlak_standart_katsayi,0.13224689457414718,0.0032746148554447345
+linear_regression,Linear Regression,hedef_min,29,min_rolling_5_max,mutlak_standart_katsayi,0.11063382932865151,0.0027394456573134685
+linear_regression,Linear Regression,hedef_min,30,max_fark_1,mutlak_standart_katsayi,0.0953951734384555,0.0023621155951162928
+linear_regression,Linear Regression,hedef_min,31,BirimTurId_11,mutlak_standart_katsayi,0.09283648341953213,0.0022987589138616952
+linear_regression,Linear Regression,hedef_min,32,min_rolling_5_std,mutlak_standart_katsayi,0.09011528402339603,0.0022313782770920472
+linear_regression,Linear Regression,hedef_min,33,max_rolling_5_min,mutlak_standart_katsayi,0.08075050991759625,0.0019994936003025856
+linear_regression,Linear Regression,hedef_min,34,max_lag_10,mutlak_standart_katsayi,0.06525849059899794,0.0016158899114229522
+linear_regression,Linear Regression,hedef_min,35,KategoriId_7,mutlak_standart_katsayi,0.058311895710093764,0.0014438826753270738
+linear_regression,Linear Regression,hedef_min,36,BirimTurId_6,mutlak_standart_katsayi,0.05729008434226576,0.0014185812215929308
+linear_regression,Linear Regression,hedef_min,37,max_lag_5,mutlak_standart_katsayi,0.04942743642347058,0.0012238912535530188
+linear_regression,Linear Regression,hedef_min,38,BirimTurId_9,mutlak_standart_katsayi,0.04655758207783239,0.0011528297159384595
+linear_regression,Linear Regression,hedef_min,39,tarih_yil_cos,mutlak_standart_katsayi,0.044561931042879754,0.0011034146537066913
+linear_regression,Linear Regression,hedef_min,40,tarih_ay_cos,mutlak_standart_katsayi,0.039005722534028564,0.0009658352951771688
+linear_regression,Linear Regression,hedef_min,41,max_rolling_5_std,mutlak_standart_katsayi,0.035618280454143836,0.000881957573946219
+linear_regression,Linear Regression,hedef_min,42,min_rolling_20_min,mutlak_standart_katsayi,0.0320701623747639,0.0007941012941521003
+linear_regression,Linear Regression,hedef_min,43,tarih_yil_gunu,mutlak_standart_katsayi,0.030786934828473278,0.0007623268165771795
+linear_regression,Linear Regression,hedef_min,44,max_rolling_20_max,mutlak_standart_katsayi,0.02391362025621685,0.0005921341018300187
+linear_regression,Linear Regression,hedef_min,45,tarih_yil_sin,mutlak_standart_katsayi,0.023892069124684445,0.0005916004661957385
+linear_regression,Linear Regression,hedef_min,46,seri_egitim_degismedi_min,mutlak_standart_katsayi,0.023150525589085147,0.0005732388291572899
+linear_regression,Linear Regression,hedef_min,47,seri_egitim_mutlak_fark_min,mutlak_standart_katsayi,0.02238888239214276,0.0005543794968811918
+linear_regression,Linear Regression,hedef_min,48,min_rolling_20_std,mutlak_standart_katsayi,0.018550782136684374,0.0004593428598873185
+linear_regression,Linear Regression,hedef_min,49,BirimTurId_7,mutlak_standart_katsayi,0.017766690924602396,0.0004399276839062467
+linear_regression,Linear Regression,hedef_min,50,seri_egitim_degismedi_max,mutlak_standart_katsayi,0.01743428748942888,0.00043169691803212045
+linear_regression,Linear Regression,hedef_min,51,onceki_gozlemden_gun,mutlak_standart_katsayi,0.015998960902011916,0.0003961562591704854
+linear_regression,Linear Regression,hedef_min,52,BirimTurId_3,mutlak_standart_katsayi,0.012737740149482812,0.0003154039514697635
+linear_regression,Linear Regression,hedef_min,53,min_rolling_10_std,mutlak_standart_katsayi,0.012360104126016291,0.00030605316454673895
+linear_regression,Linear Regression,hedef_min,54,BirimTurId_1,mutlak_standart_katsayi,0.010669571361188401,0.0002641932500047179
+linear_regression,Linear Regression,hedef_min,55,tarih_ay,mutlak_standart_katsayi,0.010415975135483535,0.000257913858941117
+linear_regression,Linear Regression,hedef_min,56,tarih_ay_sin,mutlak_standart_katsayi,0.008666735802614012,0.0002146002890944451
+linear_regression,Linear Regression,hedef_min,57,BirimTurId_8,mutlak_standart_katsayi,0.008543986882129415,0.00021156085713044308
+linear_regression,Linear Regression,hedef_min,58,tarih_hafta_gunu,mutlak_standart_katsayi,0.008198710171748003,0.00020301133127053613
+linear_regression,Linear Regression,hedef_min,59,min_fark_1,mutlak_standart_katsayi,0.006142691850143711,0.00015210149205902148
+linear_regression,Linear Regression,hedef_min,60,BirimTurId_2,mutlak_standart_katsayi,0.005962763990690789,0.00014764623098563148
+linear_regression,Linear Regression,hedef_min,61,seri_egitim_mutlak_fark_max,mutlak_standart_katsayi,0.005043207812485684,0.0001248767562749937
+linear_regression,Linear Regression,hedef_min,62,KategoriId_6,mutlak_standart_katsayi,0.0035050234932905155,8.678919861801931e-05
+linear_regression,Linear Regression,hedef_min,63,KategoriId_5,mutlak_standart_katsayi,0.0030449452918213105,7.539703006806022e-05
+linear_regression,Linear Regression,hedef_min,64,BirimTurId_5,mutlak_standart_katsayi,1.1520161552702746e-05,2.852550321055201e-07
+linear_regression,Linear Regression,hedef_max,1,min_rolling_5_mean,mutlak_standart_katsayi,3.950130502161061,0.08389622128018163
+linear_regression,Linear Regression,hedef_max,2,max_rolling_5_max,mutlak_standart_katsayi,3.9492648508545654,0.08387783584366973
+linear_regression,Linear Regression,hedef_max,3,max_rolling_10_min,mutlak_standart_katsayi,2.7306104737542234,0.05799502077481621
+linear_regression,Linear Regression,hedef_max,4,min_rolling_10_mean,mutlak_standart_katsayi,2.6218866275682773,0.055685851532671346
+linear_regression,Linear Regression,hedef_max,5,min_rolling_20_mean,mutlak_standart_katsayi,2.0862035040394127,0.04430855910067461
+linear_regression,Linear Regression,hedef_max,6,min_lag_5,mutlak_standart_katsayi,1.9693366849334089,0.041826442494485465
+linear_regression,Linear Regression,hedef_max,7,max_rolling_20_min,mutlak_standart_katsayi,1.7821770648081856,0.03785138777258447
+linear_regression,Linear Regression,hedef_max,8,min_rolling_10_max,mutlak_standart_katsayi,1.7009505394912743,0.03612622994853797
+linear_regression,Linear Regression,hedef_max,9,max_rolling_5_min,mutlak_standart_katsayi,1.662961309243492,0.035319382462008594
+linear_regression,Linear Regression,hedef_max,10,max_lag_5,mutlak_standart_katsayi,1.5692523836670156,0.03332911283628583
+linear_regression,Linear Regression,hedef_max,11,min_lag_1,mutlak_standart_katsayi,1.4988272536093157,0.031833364204240905
+linear_regression,Linear Regression,hedef_max,12,fiyat_min,mutlak_standart_katsayi,1.4966902029017248,0.03178797570911323
+linear_regression,Linear Regression,hedef_max,13,min_rolling_5_min,mutlak_standart_katsayi,1.4885855508169779,0.031615842235465
+linear_regression,Linear Regression,hedef_max,14,min_rolling_10_min,mutlak_standart_katsayi,1.4536811227078028,0.030874512392639938
+linear_regression,Linear Regression,hedef_max,15,fiyat_orta,mutlak_standart_katsayi,1.417305393104653,0.030101933801035353
+linear_regression,Linear Regression,hedef_max,16,max_lag_2,mutlak_standart_katsayi,1.3605951931156068,0.028897474483926343
+linear_regression,Linear Regression,hedef_max,17,fiyat_max,mutlak_standart_katsayi,1.3427364497272856,0.02851817534779074
+linear_regression,Linear Regression,hedef_max,18,max_lag_1,mutlak_standart_katsayi,1.3365419785697463,0.028386611916490865
+linear_regression,Linear Regression,hedef_max,19,min_lag_10,mutlak_standart_katsayi,1.2833152570526343,0.027256137669127337
+linear_regression,Linear Regression,hedef_max,20,min_rolling_20_max,mutlak_standart_katsayi,1.1646619329450822,0.024736077754775068
+linear_regression,Linear Regression,hedef_max,21,max_rolling_10_max,mutlak_standart_katsayi,1.0138382754240287,0.02153275701923226
+linear_regression,Linear Regression,hedef_max,22,max_lag_10,mutlak_standart_katsayi,0.9681755519969152,0.020562933377506754
+linear_regression,Linear Regression,hedef_max,23,max_rolling_5_mean,mutlak_standart_katsayi,0.9463215529424225,0.020098779613591983
+linear_regression,Linear Regression,hedef_max,24,max_rolling_20_max,mutlak_standart_katsayi,0.9092714796055045,0.01931187873793218
+linear_regression,Linear Regression,hedef_max,25,max_lag_20,mutlak_standart_katsayi,0.8072122984920906,0.017144259304174046
+linear_regression,Linear Regression,hedef_max,26,min_rolling_5_max,mutlak_standart_katsayi,0.7310189316608748,0.015525999968120065
+linear_regression,Linear Regression,hedef_max,27,max_rolling_10_mean,mutlak_standart_katsayi,0.6653053474155557,0.014130319141387125
+linear_regression,Linear Regression,hedef_max,28,fiyat_araligi,mutlak_standart_katsayi,0.54118192136635,0.011494080563400563
+linear_regression,Linear Regression,hedef_max,29,min_rolling_20_min,mutlak_standart_katsayi,0.5351391125453582,0.011365738265412583
+linear_regression,Linear Regression,hedef_max,30,max_rolling_20_mean,mutlak_standart_katsayi,0.3096692502065945,0.006577018132638162
+linear_regression,Linear Regression,hedef_max,31,max_rolling_10_std,mutlak_standart_katsayi,0.2723196580904027,0.005783755823154901
+linear_regression,Linear Regression,hedef_max,32,min_lag_2,mutlak_standart_katsayi,0.1995221517090358,0.004237620650994057
+linear_regression,Linear Regression,hedef_max,33,min_lag_20,mutlak_standart_katsayi,0.15607387657165506,0.003314829339878209
+linear_regression,Linear Regression,hedef_max,34,max_fark_1,mutlak_standart_katsayi,0.14888164881450328,0.0031620747078271016
+linear_regression,Linear Regression,hedef_max,35,max_rolling_20_std,mutlak_standart_katsayi,0.11173343484516907,0.002373089438193667
+linear_regression,Linear Regression,hedef_max,36,seri_egitim_mutlak_fark_max,mutlak_standart_katsayi,0.10491954012204763,0.00222837016394232
+linear_regression,Linear Regression,hedef_max,37,BirimTurId_9,mutlak_standart_katsayi,0.09142474113505797,0.0019417561795879639
+linear_regression,Linear Regression,hedef_max,38,min_rolling_5_std,mutlak_standart_katsayi,0.08671205113753622,0.00184166407310169
+linear_regression,Linear Regression,hedef_max,39,seri_egitim_mutlak_fark_min,mutlak_standart_katsayi,0.07656183307123754,0.0016260851345156328
+linear_regression,Linear Regression,hedef_max,40,min_rolling_10_std,mutlak_standart_katsayi,0.07265907472480804,0.0015431950432500416
+linear_regression,Linear Regression,hedef_max,41,tarih_yil_sin,mutlak_standart_katsayi,0.05680118942858248,0.001206391827984109
+linear_regression,Linear Regression,hedef_max,42,tarih_yil_cos,mutlak_standart_katsayi,0.04391649412890797,0.0009327357431034143
+linear_regression,Linear Regression,hedef_max,43,KategoriId_7,mutlak_standart_katsayi,0.04200643261823034,0.00089216823702459
+linear_regression,Linear Regression,hedef_max,44,seri_egitim_degismedi_max,mutlak_standart_katsayi,0.04119251397254686,0.0008748815426318429
+linear_regression,Linear Regression,hedef_max,45,tarih_ay_cos,mutlak_standart_katsayi,0.033839824908040494,0.000718718897265387
+linear_regression,Linear Regression,hedef_max,46,tarih_ay_sin,mutlak_standart_katsayi,0.029669258806606424,0.0006301408778004315
+linear_regression,Linear Regression,hedef_max,47,seri_egitim_degismedi_min,mutlak_standart_katsayi,0.022050494990686564,0.0004683271112344499
+linear_regression,Linear Regression,hedef_max,48,tarih_hafta_gunu,mutlak_standart_katsayi,0.0198697018076075,0.00042200957631913054
+linear_regression,Linear Regression,hedef_max,49,min_rolling_20_std,mutlak_standart_katsayi,0.019490712327341786,0.0004139602763575626
+linear_regression,Linear Regression,hedef_max,50,BirimTurId_2,mutlak_standart_katsayi,0.019206560602054834,0.0004079252210578004
+linear_regression,Linear Regression,hedef_max,51,BirimTurId_1,mutlak_standart_katsayi,0.018478493385044148,0.00039246191210844865
+linear_regression,Linear Regression,hedef_max,52,BirimTurId_6,mutlak_standart_katsayi,0.016334358671994453,0.0003469229608656673
+linear_regression,Linear Regression,hedef_max,53,BirimTurId_11,mutlak_standart_katsayi,0.015164456554885658,0.0003220755876359941
+linear_regression,Linear Regression,hedef_max,54,tarih_ay,mutlak_standart_katsayi,0.015063667216929089,0.0003199349382080166
+linear_regression,Linear Regression,hedef_max,55,min_fark_1,mutlak_standart_katsayi,0.014437454485660473,0.0003066349011985465
+linear_regression,Linear Regression,hedef_max,56,max_rolling_5_std,mutlak_standart_katsayi,0.013801876076082742,0.00029313594797113614
+linear_regression,Linear Regression,hedef_max,57,onceki_gozlemden_gun,mutlak_standart_katsayi,0.01287840237217619,0.0002735224303501393
+linear_regression,Linear Regression,hedef_max,58,tarih_yil_gunu,mutlak_standart_katsayi,0.011828153574992895,0.00025121635579398744
+linear_regression,Linear Regression,hedef_max,59,KategoriId_5,mutlak_standart_katsayi,0.0074062618540903236,0.0001573004697008856
+linear_regression,Linear Regression,hedef_max,60,BirimTurId_8,mutlak_standart_katsayi,0.006296307815285868,0.0001337263245936734
+linear_regression,Linear Regression,hedef_max,61,BirimTurId_5,mutlak_standart_katsayi,0.0050978931388721005,0.00010827337745108625
+linear_regression,Linear Regression,hedef_max,62,BirimTurId_7,mutlak_standart_katsayi,0.00218906966562836,4.649331787008434e-05
+linear_regression,Linear Regression,hedef_max,63,KategoriId_6,mutlak_standart_katsayi,0.0017187174742097078,3.650357917428957e-05
+linear_regression,Linear Regression,hedef_max,64,BirimTurId_3,mutlak_standart_katsayi,0.0011386845438844384,2.4184347937311864e-05
+random_forest,Random Forest,hedef_min,1,tarih_hafta_gunu,agac_ozellik_onemi,0.09326399609408603,0.09326399609408603
+random_forest,Random Forest,hedef_min,2,min_fark_1,agac_ozellik_onemi,0.07486081878267585,0.07486081878267585
+random_forest,Random Forest,hedef_min,3,seri_egitim_mutlak_fark_min,agac_ozellik_onemi,0.037151018975696296,0.037151018975696296
+random_forest,Random Forest,hedef_min,4,max_fark_1,agac_ozellik_onemi,0.03604484524709088,0.03604484524709088
+random_forest,Random Forest,hedef_min,5,min_lag_5,agac_ozellik_onemi,0.03027804262479756,0.03027804262479756
+random_forest,Random Forest,hedef_min,6,seri_egitim_mutlak_fark_max,agac_ozellik_onemi,0.02938728068273335,0.02938728068273335
+random_forest,Random Forest,hedef_min,7,min_rolling_20_std,agac_ozellik_onemi,0.026841446546818543,0.026841446546818543
+random_forest,Random Forest,hedef_min,8,min_rolling_20_mean,agac_ozellik_onemi,0.02654584867278583,0.02654584867278583
+random_forest,Random Forest,hedef_min,9,min_rolling_5_mean,agac_ozellik_onemi,0.0262733879898709,0.0262733879898709
+random_forest,Random Forest,hedef_min,10,max_rolling_10_std,agac_ozellik_onemi,0.023491097519524738,0.023491097519524738
+random_forest,Random Forest,hedef_min,11,min_rolling_5_std,agac_ozellik_onemi,0.023068497443821282,0.023068497443821282
+random_forest,Random Forest,hedef_min,12,fiyat_min,agac_ozellik_onemi,0.022299577954169286,0.022299577954169286
+random_forest,Random Forest,hedef_min,13,seri_egitim_degismedi_max,agac_ozellik_onemi,0.02227837522690777,0.02227837522690777
+random_forest,Random Forest,hedef_min,14,min_lag_1,agac_ozellik_onemi,0.022124314606505074,0.022124314606505074
+random_forest,Random Forest,hedef_min,15,max_rolling_20_mean,agac_ozellik_onemi,0.020736103843867343,0.020736103843867343
+random_forest,Random Forest,hedef_min,16,min_rolling_10_std,agac_ozellik_onemi,0.02065064162146877,0.02065064162146877
+random_forest,Random Forest,hedef_min,17,tarih_yil_cos,agac_ozellik_onemi,0.02025062505326835,0.02025062505326835
+random_forest,Random Forest,hedef_min,18,fiyat_orta,agac_ozellik_onemi,0.019824283358479966,0.019824283358479966
+random_forest,Random Forest,hedef_min,19,seri_egitim_degismedi_min,agac_ozellik_onemi,0.01955126066242071,0.01955126066242071
+random_forest,Random Forest,hedef_min,20,min_rolling_10_mean,agac_ozellik_onemi,0.019186841789876934,0.019186841789876934
+random_forest,Random Forest,hedef_min,21,min_rolling_20_max,agac_ozellik_onemi,0.0186263179443491,0.0186263179443491
+random_forest,Random Forest,hedef_min,22,min_lag_20,agac_ozellik_onemi,0.018535705651201804,0.018535705651201804
+random_forest,Random Forest,hedef_min,23,tarih_yil_gunu,agac_ozellik_onemi,0.018059115324513646,0.018059115324513646
+random_forest,Random Forest,hedef_min,24,min_lag_10,agac_ozellik_onemi,0.017261726288797942,0.017261726288797942
+random_forest,Random Forest,hedef_min,25,max_rolling_20_max,agac_ozellik_onemi,0.016944641151538008,0.016944641151538008
+random_forest,Random Forest,hedef_min,26,fiyat_araligi,agac_ozellik_onemi,0.01667908354401636,0.01667908354401636
+random_forest,Random Forest,hedef_min,27,tarih_yil_sin,agac_ozellik_onemi,0.016417015019642208,0.016417015019642208
+random_forest,Random Forest,hedef_min,28,max_lag_10,agac_ozellik_onemi,0.016384304385172934,0.016384304385172934
+random_forest,Random Forest,hedef_min,29,min_rolling_5_max,agac_ozellik_onemi,0.016174070015094015,0.016174070015094015
+random_forest,Random Forest,hedef_min,30,max_rolling_20_std,agac_ozellik_onemi,0.015661432678510837,0.015661432678510837
+random_forest,Random Forest,hedef_min,31,fiyat_max,agac_ozellik_onemi,0.014034825420914929,0.014034825420914929
+random_forest,Random Forest,hedef_min,32,max_rolling_10_mean,agac_ozellik_onemi,0.013835200523298428,0.013835200523298428
+random_forest,Random Forest,hedef_min,33,max_rolling_5_min,agac_ozellik_onemi,0.013783822956742495,0.013783822956742495
+random_forest,Random Forest,hedef_min,34,max_rolling_5_std,agac_ozellik_onemi,0.013522618726242252,0.013522618726242252
+random_forest,Random Forest,hedef_min,35,min_rolling_10_max,agac_ozellik_onemi,0.013461527304529718,0.013461527304529718
+random_forest,Random Forest,hedef_min,36,max_lag_5,agac_ozellik_onemi,0.012199096020663137,0.012199096020663137
+random_forest,Random Forest,hedef_min,37,max_rolling_10_min,agac_ozellik_onemi,0.011278912909909272,0.011278912909909272
+random_forest,Random Forest,hedef_min,38,min_rolling_20_min,agac_ozellik_onemi,0.011114903295947255,0.011114903295947255
+random_forest,Random Forest,hedef_min,39,max_rolling_5_mean,agac_ozellik_onemi,0.010855087542135298,0.010855087542135298
+random_forest,Random Forest,hedef_min,40,max_lag_1,agac_ozellik_onemi,0.009857808288277214,0.009857808288277214
+random_forest,Random Forest,hedef_min,41,max_lag_20,agac_ozellik_onemi,0.009702618974692222,0.009702618974692222
+random_forest,Random Forest,hedef_min,42,min_rolling_10_min,agac_ozellik_onemi,0.008679752674003716,0.008679752674003716
+random_forest,Random Forest,hedef_min,43,min_rolling_5_min,agac_ozellik_onemi,0.008051772177663055,0.008051772177663055
+random_forest,Random Forest,hedef_min,44,max_rolling_10_max,agac_ozellik_onemi,0.007675583385851417,0.007675583385851417
+random_forest,Random Forest,hedef_min,45,max_rolling_5_max,agac_ozellik_onemi,0.007636153345529804,0.007636153345529804
+random_forest,Random Forest,hedef_min,46,min_lag_2,agac_ozellik_onemi,0.007629043002789236,0.007629043002789236
+random_forest,Random Forest,hedef_min,47,max_rolling_20_min,agac_ozellik_onemi,0.007435809707506942,0.007435809707506942
+random_forest,Random Forest,hedef_min,48,tarih_ay,agac_ozellik_onemi,0.006486419981107838,0.006486419981107838
+random_forest,Random Forest,hedef_min,49,tarih_ay_cos,agac_ozellik_onemi,0.0063985927312904005,0.0063985927312904005
+random_forest,Random Forest,hedef_min,50,max_lag_2,agac_ozellik_onemi,0.005921801746043872,0.005921801746043872
+random_forest,Random Forest,hedef_min,51,tarih_ay_sin,agac_ozellik_onemi,0.0054102373626381,0.0054102373626381
+random_forest,Random Forest,hedef_min,52,onceki_gozlemden_gun,agac_ozellik_onemi,0.004239231225331958,0.004239231225331958
+random_forest,Random Forest,hedef_min,53,BirimTurId_1,agac_ozellik_onemi,0.0023786005318298226,0.0023786005318298226
+random_forest,Random Forest,hedef_min,54,BirimTurId_2,agac_ozellik_onemi,0.0009761568630942874,0.0009761568630942874
+random_forest,Random Forest,hedef_min,55,KategoriId_5,agac_ozellik_onemi,0.0007219907686452172,0.0007219907686452172
+random_forest,Random Forest,hedef_min,56,BirimTurId_9,agac_ozellik_onemi,0.0006312020517968811,0.0006312020517968811
+random_forest,Random Forest,hedef_min,57,KategoriId_6,agac_ozellik_onemi,0.0005227669253592246,0.0005227669253592246
+random_forest,Random Forest,hedef_min,58,KategoriId_7,agac_ozellik_onemi,0.00040175443077478356,0.00040175443077478356
+random_forest,Random Forest,hedef_min,59,BirimTurId_7,agac_ozellik_onemi,0.00024242258961376632,0.00024242258961376632
+random_forest,Random Forest,hedef_min,60,BirimTurId_6,agac_ozellik_onemi,6.25698360751214e-05,6.25698360751214e-05
+random_forest,Random Forest,hedef_min,61,BirimTurId_3,agac_ozellik_onemi,0.0,0.0
+random_forest,Random Forest,hedef_min,62,BirimTurId_5,agac_ozellik_onemi,0.0,0.0
+random_forest,Random Forest,hedef_min,63,BirimTurId_8,agac_ozellik_onemi,0.0,0.0
+random_forest,Random Forest,hedef_min,64,BirimTurId_11,agac_ozellik_onemi,0.0,0.0
+random_forest,Random Forest,hedef_max,1,max_fark_1,agac_ozellik_onemi,0.11487530546983005,0.11487530546983005
+random_forest,Random Forest,hedef_max,2,tarih_hafta_gunu,agac_ozellik_onemi,0.07807316344947299,0.07807316344947299
+random_forest,Random Forest,hedef_max,3,min_fark_1,agac_ozellik_onemi,0.06461347068552573,0.06461347068552573
+random_forest,Random Forest,hedef_max,4,min_rolling_10_std,agac_ozellik_onemi,0.030447336423081884,0.030447336423081884
+random_forest,Random Forest,hedef_max,5,seri_egitim_mutlak_fark_min,agac_ozellik_onemi,0.029534334329445477,0.029534334329445477
+random_forest,Random Forest,hedef_max,6,max_rolling_20_std,agac_ozellik_onemi,0.02891395986453239,0.02891395986453239
+random_forest,Random Forest,hedef_max,7,seri_egitim_mutlak_fark_max,agac_ozellik_onemi,0.028143411718408663,0.028143411718408663
+random_forest,Random Forest,hedef_max,8,max_rolling_10_std,agac_ozellik_onemi,0.027347928403212707,0.027347928403212707
+random_forest,Random Forest,hedef_max,9,seri_egitim_degismedi_max,agac_ozellik_onemi,0.02457782157424103,0.02457782157424103
+random_forest,Random Forest,hedef_max,10,min_rolling_20_std,agac_ozellik_onemi,0.023951230042963352,0.023951230042963352
+random_forest,Random Forest,hedef_max,11,max_rolling_20_mean,agac_ozellik_onemi,0.02335290344091505,0.02335290344091505
+random_forest,Random Forest,hedef_max,12,fiyat_araligi,agac_ozellik_onemi,0.023001716330870742,0.023001716330870742
+random_forest,Random Forest,hedef_max,13,seri_egitim_degismedi_min,agac_ozellik_onemi,0.02042824290814721,0.02042824290814721
+random_forest,Random Forest,hedef_max,14,max_rolling_5_std,agac_ozellik_onemi,0.019912970857121425,0.019912970857121425
+random_forest,Random Forest,hedef_max,15,max_rolling_20_max,agac_ozellik_onemi,0.01961411835974061,0.01961411835974061
+random_forest,Random Forest,hedef_max,16,fiyat_min,agac_ozellik_onemi,0.018481791840317598,0.018481791840317598
+random_forest,Random Forest,hedef_max,17,fiyat_max,agac_ozellik_onemi,0.01829502272091024,0.01829502272091024
+random_forest,Random Forest,hedef_max,18,min_rolling_5_std,agac_ozellik_onemi,0.018055145793219374,0.018055145793219374
+random_forest,Random Forest,hedef_max,19,fiyat_orta,agac_ozellik_onemi,0.01804175003848938,0.01804175003848938
+random_forest,Random Forest,hedef_max,20,max_rolling_10_mean,agac_ozellik_onemi,0.017742917904922266,0.017742917904922266
+random_forest,Random Forest,hedef_max,21,max_lag_10,agac_ozellik_onemi,0.017705950027614714,0.017705950027614714
+random_forest,Random Forest,hedef_max,22,min_rolling_20_mean,agac_ozellik_onemi,0.017643236571222135,0.017643236571222135
+random_forest,Random Forest,hedef_max,23,min_rolling_10_mean,agac_ozellik_onemi,0.017475011030434657,0.017475011030434657
+random_forest,Random Forest,hedef_max,24,max_lag_1,agac_ozellik_onemi,0.015999151087850907,0.015999151087850907
+random_forest,Random Forest,hedef_max,25,min_lag_5,agac_ozellik_onemi,0.01582207367701415,0.01582207367701415
+random_forest,Random Forest,hedef_max,26,tarih_yil_cos,agac_ozellik_onemi,0.015126137786030471,0.015126137786030471
+random_forest,Random Forest,hedef_max,27,max_rolling_5_mean,agac_ozellik_onemi,0.01476369005938343,0.01476369005938343
+random_forest,Random Forest,hedef_max,28,min_lag_10,agac_ozellik_onemi,0.014330297637068803,0.014330297637068803
+random_forest,Random Forest,hedef_max,29,min_lag_20,agac_ozellik_onemi,0.013137932309616174,0.013137932309616174
+random_forest,Random Forest,hedef_max,30,max_rolling_10_min,agac_ozellik_onemi,0.012829195536660992,0.012829195536660992
+random_forest,Random Forest,hedef_max,31,max_lag_5,agac_ozellik_onemi,0.012715431390054183,0.012715431390054183
+random_forest,Random Forest,hedef_max,32,tarih_yil_sin,agac_ozellik_onemi,0.012145462648522409,0.012145462648522409
+random_forest,Random Forest,hedef_max,33,max_rolling_10_max,agac_ozellik_onemi,0.012058904978596718,0.012058904978596718
+random_forest,Random Forest,hedef_max,34,min_lag_1,agac_ozellik_onemi,0.01173255848708774,0.01173255848708774
+random_forest,Random Forest,hedef_max,35,max_lag_20,agac_ozellik_onemi,0.011363991572000302,0.011363991572000302
+random_forest,Random Forest,hedef_max,36,min_rolling_20_min,agac_ozellik_onemi,0.011135016131636732,0.011135016131636732
+random_forest,Random Forest,hedef_max,37,tarih_yil_gunu,agac_ozellik_onemi,0.010885861704946799,0.010885861704946799
+random_forest,Random Forest,hedef_max,38,min_rolling_5_max,agac_ozellik_onemi,0.010739723533837151,0.010739723533837151
+random_forest,Random Forest,hedef_max,39,min_rolling_10_max,agac_ozellik_onemi,0.010274861485332314,0.010274861485332314
+random_forest,Random Forest,hedef_max,40,min_rolling_5_mean,agac_ozellik_onemi,0.010086530372388536,0.010086530372388536
+random_forest,Random Forest,hedef_max,41,min_rolling_20_max,agac_ozellik_onemi,0.009382377188122926,0.009382377188122926
+random_forest,Random Forest,hedef_max,42,min_rolling_10_min,agac_ozellik_onemi,0.009202443281743725,0.009202443281743725
+random_forest,Random Forest,hedef_max,43,max_lag_2,agac_ozellik_onemi,0.007588854640177176,0.007588854640177176
+random_forest,Random Forest,hedef_max,44,max_rolling_20_min,agac_ozellik_onemi,0.007089028986589095,0.007089028986589095
+random_forest,Random Forest,hedef_max,45,max_rolling_5_min,agac_ozellik_onemi,0.007073883211722663,0.007073883211722663
+random_forest,Random Forest,hedef_max,46,max_rolling_5_max,agac_ozellik_onemi,0.006937253865499005,0.006937253865499005
+random_forest,Random Forest,hedef_max,47,tarih_ay_cos,agac_ozellik_onemi,0.005780551672231739,0.005780551672231739
+random_forest,Random Forest,hedef_max,48,tarih_ay_sin,agac_ozellik_onemi,0.005613124324024168,0.005613124324024168
+random_forest,Random Forest,hedef_max,49,onceki_gozlemden_gun,agac_ozellik_onemi,0.005550411172285145,0.005550411172285145
+random_forest,Random Forest,hedef_max,50,min_rolling_5_min,agac_ozellik_onemi,0.004982022549372347,0.004982022549372347
+random_forest,Random Forest,hedef_max,51,tarih_ay,agac_ozellik_onemi,0.004237575624934591,0.004237575624934591
+random_forest,Random Forest,hedef_max,52,min_lag_2,agac_ozellik_onemi,0.003664476749501715,0.003664476749501715
+random_forest,Random Forest,hedef_max,53,KategoriId_7,agac_ozellik_onemi,0.002426861956517694,0.002426861956517694
+random_forest,Random Forest,hedef_max,54,BirimTurId_2,agac_ozellik_onemi,0.0012649956638409309,0.0012649956638409309
+random_forest,Random Forest,hedef_max,55,BirimTurId_9,agac_ozellik_onemi,0.0010859611295654264,0.0010859611295654264
+random_forest,Random Forest,hedef_max,56,KategoriId_6,agac_ozellik_onemi,0.0010014424391015606,0.0010014424391015606
+random_forest,Random Forest,hedef_max,57,BirimTurId_1,agac_ozellik_onemi,0.0007575231994462444,0.0007575231994462444
+random_forest,Random Forest,hedef_max,58,BirimTurId_7,agac_ozellik_onemi,0.0005746125789917263,0.0005746125789917263
+random_forest,Random Forest,hedef_max,59,KategoriId_5,agac_ozellik_onemi,0.0003715147225359436,0.0003715147225359436
+random_forest,Random Forest,hedef_max,60,BirimTurId_6,agac_ozellik_onemi,3.61456259682762e-05,3.61456259682762e-05
+random_forest,Random Forest,hedef_max,61,BirimTurId_3,agac_ozellik_onemi,3.3792351604111378e-06,3.3792351604111378e-06
+random_forest,Random Forest,hedef_max,62,BirimTurId_5,agac_ozellik_onemi,0.0,0.0
+random_forest,Random Forest,hedef_max,63,BirimTurId_8,agac_ozellik_onemi,0.0,0.0
+random_forest,Random Forest,hedef_max,64,BirimTurId_11,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,1,min_lag_5,agac_ozellik_onemi,0.0714007243514061,0.07140072421841188
+xgboost,XGBoost,hedef_min,2,min_lag_10,agac_ozellik_onemi,0.06910204142332077,0.06910204129460819
+xgboost,XGBoost,hedef_min,3,tarih_hafta_gunu,agac_ozellik_onemi,0.05188122019171715,0.051881220095080845
+xgboost,XGBoost,hedef_min,4,min_fark_1,agac_ozellik_onemi,0.04096519947052002,0.04096519939421639
+xgboost,XGBoost,hedef_min,5,min_rolling_20_min,agac_ozellik_onemi,0.03998487442731857,0.03998487435284094
+xgboost,XGBoost,hedef_min,6,min_rolling_20_std,agac_ozellik_onemi,0.03840670362114906,0.038406703549611
+xgboost,XGBoost,hedef_min,7,max_rolling_5_min,agac_ozellik_onemi,0.03752084821462631,0.037520848144738286
+xgboost,XGBoost,hedef_min,8,min_lag_20,agac_ozellik_onemi,0.0355023629963398,0.035502362930211494
+xgboost,XGBoost,hedef_min,9,seri_egitim_mutlak_fark_min,agac_ozellik_onemi,0.0354180634021759,0.03541806333620462
+xgboost,XGBoost,hedef_min,10,min_rolling_10_max,agac_ozellik_onemi,0.03244583681225777,0.032445836751822686
+xgboost,XGBoost,hedef_min,11,min_rolling_5_std,agac_ozellik_onemi,0.029730407521128654,0.029730407465751455
+xgboost,XGBoost,hedef_min,12,max_lag_10,agac_ozellik_onemi,0.029325047507882118,0.02932504745325996
+xgboost,XGBoost,hedef_min,13,fiyat_max,agac_ozellik_onemi,0.028214337304234505,0.028214337251681206
+xgboost,XGBoost,hedef_min,14,min_rolling_5_min,agac_ozellik_onemi,0.028161579743027687,0.028161579690572657
+xgboost,XGBoost,hedef_min,15,max_fark_1,agac_ozellik_onemi,0.027785081416368484,0.027785081364614737
+xgboost,XGBoost,hedef_min,16,max_lag_1,agac_ozellik_onemi,0.02599489688873291,0.02599489684031364
+xgboost,XGBoost,hedef_min,17,fiyat_min,agac_ozellik_onemi,0.02581135369837284,0.025811353650295448
+xgboost,XGBoost,hedef_min,18,seri_egitim_mutlak_fark_max,agac_ozellik_onemi,0.022929523140192032,0.022929523097482467
+xgboost,XGBoost,hedef_min,19,max_rolling_5_std,agac_ozellik_onemi,0.02110826037824154,0.02110826033892434
+xgboost,XGBoost,hedef_min,20,min_rolling_10_std,agac_ozellik_onemi,0.021102048456668854,0.021102048417363226
+xgboost,XGBoost,hedef_min,21,max_rolling_5_max,agac_ozellik_onemi,0.02034343034029007,0.020343430302397478
+xgboost,XGBoost,hedef_min,22,max_rolling_20_min,agac_ozellik_onemi,0.01980896107852459,0.019808961041627524
+xgboost,XGBoost,hedef_min,23,max_rolling_10_min,agac_ozellik_onemi,0.01937471516430378,0.01937471512821556
+xgboost,XGBoost,hedef_min,24,max_rolling_10_max,agac_ozellik_onemi,0.018977276980876923,0.01897727694552899
+xgboost,XGBoost,hedef_min,25,seri_egitim_degismedi_min,agac_ozellik_onemi,0.018975887447595596,0.01897588741225025
+xgboost,XGBoost,hedef_min,26,min_rolling_10_min,agac_ozellik_onemi,0.018818151205778122,0.018818151170726584
+xgboost,XGBoost,hedef_min,27,min_lag_1,agac_ozellik_onemi,0.017960097640752792,0.017960097607299504
+xgboost,XGBoost,hedef_min,28,fiyat_orta,agac_ozellik_onemi,0.01738574355840683,0.01738574352602336
+xgboost,XGBoost,hedef_min,29,max_lag_2,agac_ozellik_onemi,0.01733156107366085,0.017331561041378302
+xgboost,XGBoost,hedef_min,30,min_rolling_20_max,agac_ozellik_onemi,0.016663808375597,0.01666380834455824
+xgboost,XGBoost,hedef_min,31,tarih_ay_sin,agac_ozellik_onemi,0.01654672436416149,0.016546724333340816
+xgboost,XGBoost,hedef_min,32,max_rolling_20_mean,agac_ozellik_onemi,0.015650160610675812,0.015650160581525116
+xgboost,XGBoost,hedef_min,33,min_rolling_20_mean,agac_ozellik_onemi,0.01380995288491249,0.013809952859189449
+xgboost,XGBoost,hedef_min,34,tarih_yil_gunu,agac_ozellik_onemi,0.011865575797855854,0.011865575775754497
+xgboost,XGBoost,hedef_min,35,seri_egitim_degismedi_max,agac_ozellik_onemi,0.0110202357172966,0.011020235696769812
+xgboost,XGBoost,hedef_min,36,fiyat_araligi,agac_ozellik_onemi,0.010247571393847466,0.010247571374759876
+xgboost,XGBoost,hedef_min,37,min_rolling_5_mean,agac_ozellik_onemi,0.009592175483703613,0.009592175465836794
+xgboost,XGBoost,hedef_min,38,max_rolling_20_std,agac_ozellik_onemi,0.008083208464086056,0.008083208449029907
+xgboost,XGBoost,hedef_min,39,max_rolling_10_mean,agac_ozellik_onemi,0.004754353314638138,0.004754353305782465
+xgboost,XGBoost,hedef_min,40,BirimTurId_6,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,41,BirimTurId_7,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,42,BirimTurId_1,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,43,BirimTurId_11,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,44,KategoriId_5,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,45,BirimTurId_3,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,46,BirimTurId_9,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,47,BirimTurId_5,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,48,BirimTurId_2,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,49,BirimTurId_8,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,50,max_rolling_10_std,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,51,tarih_yil_cos,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,52,tarih_yil_sin,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,53,tarih_ay_cos,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,54,tarih_ay,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,55,max_rolling_20_max,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,56,KategoriId_6,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,57,max_rolling_5_mean,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,58,min_rolling_10_mean,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,59,min_rolling_5_max,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,60,max_lag_20,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,61,max_lag_5,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,62,min_lag_2,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,63,onceki_gozlemden_gun,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_min,64,KategoriId_7,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,1,max_fark_1,agac_ozellik_onemi,0.06234748288989067,0.06234748397136283
+xgboost,XGBoost,hedef_max,2,max_lag_5,agac_ozellik_onemi,0.05814228951931,0.05814229052783936
+xgboost,XGBoost,hedef_max,3,max_rolling_10_mean,agac_ozellik_onemi,0.05645887553691864,0.0564588765162477
+xgboost,XGBoost,hedef_max,4,min_lag_10,agac_ozellik_onemi,0.043511420488357544,0.04351142124310156
+xgboost,XGBoost,hedef_max,5,fiyat_max,agac_ozellik_onemi,0.041166868060827255,0.04116686877490294
+xgboost,XGBoost,hedef_max,6,min_fark_1,agac_ozellik_onemi,0.03914612904191017,0.039146129720934356
+xgboost,XGBoost,hedef_max,7,min_lag_5,agac_ozellik_onemi,0.038829151540994644,0.038829152214520574
+xgboost,XGBoost,hedef_max,8,seri_egitim_mutlak_fark_min,agac_ozellik_onemi,0.03591170161962509,0.03591170224254527
+xgboost,XGBoost,hedef_max,9,min_rolling_10_std,agac_ozellik_onemi,0.033843740820884705,0.03384374140793428
+xgboost,XGBoost,hedef_max,10,tarih_hafta_gunu,agac_ozellik_onemi,0.0333964005112648,0.03339640109055487
+xgboost,XGBoost,hedef_max,11,min_rolling_5_min,agac_ozellik_onemi,0.02895476669073105,0.02895476719297705
+xgboost,XGBoost,hedef_max,12,min_rolling_5_std,agac_ozellik_onemi,0.028066037222743034,0.02806603770957324
+xgboost,XGBoost,hedef_max,13,max_lag_1,agac_ozellik_onemi,0.027778862044215202,0.0277788625260641
+xgboost,XGBoost,hedef_max,14,seri_egitim_mutlak_fark_max,agac_ozellik_onemi,0.02714082971215248,0.027140830182934145
+xgboost,XGBoost,hedef_max,15,min_lag_20,agac_ozellik_onemi,0.025500759482383728,0.025500759924716926
+xgboost,XGBoost,hedef_max,16,min_rolling_20_min,agac_ozellik_onemi,0.0242142453789711,0.024214245798988572
+xgboost,XGBoost,hedef_max,17,fiyat_araligi,agac_ozellik_onemi,0.024120891466736794,0.02412089188513496
+xgboost,XGBoost,hedef_max,18,max_rolling_5_std,agac_ozellik_onemi,0.023915568366646767,0.023915568781483425
+xgboost,XGBoost,hedef_max,19,min_rolling_20_std,agac_ozellik_onemi,0.023897534236311913,0.02389753465083575
+xgboost,XGBoost,hedef_max,20,seri_egitim_degismedi_min,agac_ozellik_onemi,0.023836765438318253,0.023836765851788004
+xgboost,XGBoost,hedef_max,21,max_rolling_20_max,agac_ozellik_onemi,0.022755607962608337,0.022755608357324455
+xgboost,XGBoost,hedef_max,22,max_rolling_5_max,agac_ozellik_onemi,0.02257845550775528,0.022578455899398532
+xgboost,XGBoost,hedef_max,23,max_rolling_20_min,agac_ozellik_onemi,0.02067309059202671,0.020673090950619727
+xgboost,XGBoost,hedef_max,24,max_rolling_10_max,agac_ozellik_onemi,0.020612042397260666,0.020612042754794748
+xgboost,XGBoost,hedef_max,25,fiyat_min,agac_ozellik_onemi,0.018870782107114792,0.018870782434445177
+xgboost,XGBoost,hedef_max,26,fiyat_orta,agac_ozellik_onemi,0.018775420263409615,0.01877542058908586
+xgboost,XGBoost,hedef_max,27,seri_egitim_degismedi_max,agac_ozellik_onemi,0.017627215012907982,0.017627215318667594
+xgboost,XGBoost,hedef_max,28,max_rolling_5_min,agac_ozellik_onemi,0.01732538640499115,0.01732538670551528
+xgboost,XGBoost,hedef_max,29,max_lag_20,agac_ozellik_onemi,0.017226872965693474,0.0172268732645088
+xgboost,XGBoost,hedef_max,30,max_rolling_10_std,agac_ozellik_onemi,0.016162579879164696,0.016162580159518918
+xgboost,XGBoost,hedef_max,31,min_rolling_20_mean,agac_ozellik_onemi,0.012607633136212826,0.012607633354903358
+xgboost,XGBoost,hedef_max,32,tarih_ay,agac_ozellik_onemi,0.0111391581594944,0.011139158352712937
+xgboost,XGBoost,hedef_max,33,min_rolling_10_min,agac_ozellik_onemi,0.01110501866787672,0.011105018860503078
+xgboost,XGBoost,hedef_max,34,max_lag_2,agac_ozellik_onemi,0.010312233120203018,0.01031223329907781
+xgboost,XGBoost,hedef_max,35,max_rolling_20_mean,agac_ozellik_onemi,0.008899018168449402,0.008899018322810733
+xgboost,XGBoost,hedef_max,36,max_lag_10,agac_ozellik_onemi,0.008787766098976135,0.008787766251407701
+xgboost,XGBoost,hedef_max,37,tarih_yil_sin,agac_ozellik_onemi,0.008529024198651314,0.008529024346594772
+xgboost,XGBoost,hedef_max,38,tarih_yil_gunu,agac_ozellik_onemi,0.008385253138840199,0.008385253284289821
+xgboost,XGBoost,hedef_max,39,max_rolling_20_std,agac_ozellik_onemi,0.007034159265458584,0.007034159387472289
+xgboost,XGBoost,hedef_max,40,max_rolling_10_min,agac_ozellik_onemi,0.0056000398471951485,0.005600039944332786
+xgboost,XGBoost,hedef_max,41,onceki_gozlemden_gun,agac_ozellik_onemi,0.005406484007835388,0.005406484101615629
+xgboost,XGBoost,hedef_max,42,BirimTurId_9,agac_ozellik_onemi,0.0038637686520814896,0.0038637687191019694
+xgboost,XGBoost,hedef_max,43,tarih_ay_sin,agac_ozellik_onemi,0.003739789826795459,0.0037397898916654167
+xgboost,XGBoost,hedef_max,44,tarih_ay_cos,agac_ozellik_onemi,0.001802863203920424,0.0018028632351926787
+xgboost,XGBoost,hedef_max,45,min_rolling_20_max,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,46,BirimTurId_5,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,47,BirimTurId_7,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,48,BirimTurId_3,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,49,BirimTurId_8,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,50,BirimTurId_11,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,51,KategoriId_5,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,52,BirimTurId_6,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,53,BirimTurId_2,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,54,tarih_yil_cos,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,55,min_lag_1,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,56,min_lag_2,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,57,max_rolling_5_mean,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,58,min_rolling_5_mean,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,59,min_rolling_5_max,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,60,min_rolling_10_mean,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,61,min_rolling_10_max,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,62,KategoriId_6,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,63,BirimTurId_1,agac_ozellik_onemi,0.0,0.0
+xgboost,XGBoost,hedef_max,64,KategoriId_7,agac_ozellik_onemi,0.0,0.0

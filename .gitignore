@@ -1,0 +1,15 @@
+# Python önbellek ve sanal ortam dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+.DS_Store
+
+# GitHub 50MB+ sınırını aşan ham/sıkıştırılmamış veri dosyaları
+# (Uygulamanın kullandığı sıkıştırılmış temiz_veri.csv.gz ve tüm model/tahmin çıktıları repoya dahildir)
+ham_yanitlar.sqlite
+veriler/*.csv
+seviye1/ciktilar/asama1/temiz_veri.csv

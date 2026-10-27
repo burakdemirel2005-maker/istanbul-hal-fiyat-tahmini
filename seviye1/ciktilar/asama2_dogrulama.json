@@ -1,0 +1,14 @@
+{
+  "durum": "basarili",
+  "kontroller": [
+    "Aşama 1/orijinal kaynaklar değişmemiş; bütün Aşama 2 dosyalarının hashleri eşleşiyor.",
+    "Hedef tarihlerine göre ayrım, bölüm ayrıklığı ve öğrenme anındaki etiket erişilebilirliği doğru.",
+    "Bütün gerçek hedefler aynı ürün/birim/ad döneminin tam sonraki ortak gününe eşit; uzak kayıt hedef alınmamış.",
+    "354,987 kayıt için 54 özelliğin tamamı kaynak geçmişinden bağımsız hesaplandı ve karşılaştırıldı.",
+    "Kabul/dışlama kümesi, bütün temiz kayıtların mutabakatı ve son gün uygunluğu bağımsız doğrulandı."
+  ],
+  "kontrol_edilen_etiketli_ornek": 354896,
+  "kontrol_edilen_son_gun_girdisi": 91,
+  "ozellik_sayisi": 54,
+  "azami_std_sayisal_farki": 2.579646246614331e-09
+}

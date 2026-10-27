@@ -1,0 +1,121 @@
+{
+  "calistirma_zamani": "2026-10-27T18:29:32.562714+03:00",
+  "ana_veri": {
+    "satir": 382897,
+    "sutun": 9,
+    "ilk_tarih": "2016-01-04",
+    "son_tarih": "2026-10-26",
+    "veri_gunu": 2674,
+    "urun_kimligi": 255,
+    "urun_adi": 260,
+    "birim_kodu": 9,
+    "bos_hucre": {
+      "Tarih": 0,
+      "TabelaGId": 0,
+      "UrunAd": 0,
+      "BirimTurId": 0,
+      "KategoriId": 0,
+      "EnDusukFiyat": 0,
+      "EnYuksekFiyat": 0,
+      "GuneAit": 0,
+      "HalTurId": 0
+    },
+    "sifir_fiyatli": 60,
+    "negatif_fiyatli": 0,
+    "ters_fiyat_araligi": 91,
+    "esit_fiyat": 276,
+    "tam_tekrar_fazlaligi": 1761,
+    "anahtar_tekrar_fazlaligi": 1761,
+    "cok_adli_kimlik": 13,
+    "cok_birimli_kimlik": 31,
+    "cok_kimlikli_ad": 9,
+    "kategori_satirlari": {
+      "5": 116774,
+      "6": 226317,
+      "7": 39806
+    },
+    "birim_satirlari": {
+      "1": 308928,
+      "11": 224,
+      "2": 9785,
+      "3": 30943,
+      "5": 15912,
+      "6": 801,
+      "7": 5361,
+      "8": 932,
+      "9": 10011
+    }
+  },
+  "karsilastirma": {
+    "tum_urunler_satir": 464540,
+    "meyve_sebze_ayni_coklukta_esit": true
+  },
+  "temizleme": {
+    "ham_kayit": 382897,
+    "tam_tekrar_fazlaligi": 1761,
+    "normalizasyon_sonrasi_tekrar": 0,
+    "kesin_gecersiz_veya_celiskili": 151,
+    "dislanan_toplam": 1912,
+    "temiz_kayit": 380985,
+    "inceleme_isaretli_kayit": 356,
+    "inceleme_isaretsiz_kayit": 380629,
+    "genis_aralik_isaretli": 37,
+    "buyuk_degisim_isaretli": 328,
+    "duzeltilen_ad_kayit": 5499,
+    "dislama_nedenleri": {
+      "ters_fiyat_araligi": 91,
+      "sifir_veya_negatif_fiyat": 60
+    }
+  },
+  "temiz_kapsam": {
+    "urun_kimligi": 252,
+    "kimlik_birim_hal_kategori": 287,
+    "ad_donemli_seri": 299,
+    "kaydi_kalmayan_urunler": [
+      {
+        "TabelaGId": "0f9b79f7-07d5-466f-9e26-13150ea93f85",
+        "UrunAd": "Sarımsak(Taze)",
+        "HamKayit": 2
+      },
+      {
+        "TabelaGId": "81b46534-98d0-415a-a309-f1ae3d108b82",
+        "UrunAd": "Soğan Kuru(ikinci)",
+        "HamKayit": 1
+      },
+      {
+        "TabelaGId": "e9ac07ce-471e-4acf-85ee-aa7e48fe71fc",
+        "UrunAd": "Biber sivri kıl",
+        "HamKayit": 1
+      }
+    ],
+    "kategori_kapsami": [
+      {
+        "Kategori": "Meyve",
+        "HamKayit": 116774,
+        "TemizKayit": 116151
+      },
+      {
+        "Kategori": "Sebze",
+        "HamKayit": 226317,
+        "TemizKayit": 225249
+      },
+      {
+        "Kategori": "İthal Ürünler",
+        "HamKayit": 39806,
+        "TemizKayit": 39585
+      }
+    ]
+  },
+  "takvim": {
+    "kayitsiz_takvim_gunu": 1275,
+    "kayitsiz_haftaici_gun": 147
+  },
+  "test_donemi_sozlesmesi": {
+    "baslangic_dahil": "2025-10-27",
+    "bitis_dahil": "2026-10-26",
+    "ay_sayisi": 12,
+    "ayirma_anahtari": "hedef_tarihi (sonraki aşama)",
+    "hiperparametre_seciminde_kullanilamaz": true,
+    "henuz_fiziksel_ayrim_yapilmadi": true
+  }
+}

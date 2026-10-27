@@ -1,0 +1,15 @@
+{
+  "durum": "basarili",
+  "kontroller": [
+    "İki orijinal kaynağın öncesi/sonrası/güncel SHA-256 özetleri aynı.",
+    "Manifestodaki bütün çıktı dosyalarının SHA-256 özetleri aynı.",
+    "Her ham kayıt temiz veride veya dışlama dosyasında tam bir kez bulunuyor.",
+    "Temiz fiyatlar, tarihler, kodlar ve özgün adlar kaynak kayıtlarıyla eşleşiyor.",
+    "Karantina/tekrar dosyasındaki bütün özgün alanlar kaynağa eşit.",
+    "Fiyat, benzersiz anahtar, seri kimliği/birimi/adı ve aşama sınırı kontrolleri geçti.",
+    "İnceleme işaretleri/listesi tutarlı; örnek uç fiyat korunmuş.",
+    "Ham gün takvimi, yıllık toplamlar ve son 12 ay sınırı bağımsız doğrulandı."
+  ],
+  "temiz_kayit": 380985,
+  "inceleme_kayit": 356
+}

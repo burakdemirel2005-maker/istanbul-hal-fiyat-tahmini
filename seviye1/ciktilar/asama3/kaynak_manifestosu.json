@@ -1,0 +1,81 @@
+{
+  "asama1_dizini": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1",
+  "asama2_dizini": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2",
+  "orijinal_csv_once": {
+    "/Users/burakdemirel/Desktop/IBB_Hal_Meyve_Sebze_2016_2026.csv": "ab3411d2a60b854204a3e3de62836d473f1ac3ade50b18b4770bd8f7e0721b42",
+    "/Users/burakdemirel/Desktop/IBB_Hal_Tum_Urunler_2016_2026.csv": "27af4516415de201143d4a32b341cc106e25202ea99543698465accce318fa17"
+  },
+  "orijinal_csv_sonra": {
+    "/Users/burakdemirel/Desktop/IBB_Hal_Meyve_Sebze_2016_2026.csv": "ab3411d2a60b854204a3e3de62836d473f1ac3ade50b18b4770bd8f7e0721b42",
+    "/Users/burakdemirel/Desktop/IBB_Hal_Tum_Urunler_2016_2026.csv": "27af4516415de201143d4a32b341cc106e25202ea99543698465accce318fa17"
+  },
+  "asama1_once": {
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/ASAMA1_RAPORU.md": "2772c51dc38277bb4673dc1f320563ed10db5337da2c118ad859162ea2c28788",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/ad_birim_iliskileri.csv": "d85426e753cf782ba46b1091a535c684ef5c478e1a2996bf157673f23607b5c6",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/dislanan_kayitlar.csv": "683df9724bdae6e20a575f16d5efe3d61141fd85256b068c9864263d03ddb6a0",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/inceleme_bekleyen.csv": "cfff760f60b8927783265307484303fafa1926520992b9c2e7d42aac66c44290",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/ozet.json": "2fac021ce7ae8c7ba14e213f8dbd1222b02bcd185f38660f73843ecd468525e5",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/temiz_veri.csv": "cf650544ac30576d1c61c0b7733a99a4e7b88eef6a47792a3a045f71153314d2",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/urun_serileri.csv": "1c078ebed214e2f9c851d601f053125743407ecfa1a3e2e52a6845f3ef38022a",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/veri_gunleri.csv": "c7ac17851b34489e3a7c05973b531a7d30a2f630a8a1bccfe2b726172996b42d",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/veri_sozlesmesi.json": "44a405e56e88ca5163b74447e332dcd68a1a7ab50011afaad571c70e0ad71a5b",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/yillik_kapsam.csv": "67f2547daa03f71f79ca6e08fec2f90d31f4df37c3a6296db29fc689f5e31a2d",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/kaynak_manifestosu.json": "f68ca75c4120b6f80809c6bb2cd48ab85fd69a655eae15993af0c9b603e74913"
+  },
+  "asama1_sonra": {
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/ASAMA1_RAPORU.md": "2772c51dc38277bb4673dc1f320563ed10db5337da2c118ad859162ea2c28788",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/ad_birim_iliskileri.csv": "d85426e753cf782ba46b1091a535c684ef5c478e1a2996bf157673f23607b5c6",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/dislanan_kayitlar.csv": "683df9724bdae6e20a575f16d5efe3d61141fd85256b068c9864263d03ddb6a0",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/inceleme_bekleyen.csv": "cfff760f60b8927783265307484303fafa1926520992b9c2e7d42aac66c44290",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/ozet.json": "2fac021ce7ae8c7ba14e213f8dbd1222b02bcd185f38660f73843ecd468525e5",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/temiz_veri.csv": "cf650544ac30576d1c61c0b7733a99a4e7b88eef6a47792a3a045f71153314d2",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/urun_serileri.csv": "1c078ebed214e2f9c851d601f053125743407ecfa1a3e2e52a6845f3ef38022a",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/veri_gunleri.csv": "c7ac17851b34489e3a7c05973b531a7d30a2f630a8a1bccfe2b726172996b42d",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/veri_sozlesmesi.json": "44a405e56e88ca5163b74447e332dcd68a1a7ab50011afaad571c70e0ad71a5b",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/yillik_kapsam.csv": "67f2547daa03f71f79ca6e08fec2f90d31f4df37c3a6296db29fc689f5e31a2d",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama1/kaynak_manifestosu.json": "f68ca75c4120b6f80809c6bb2cd48ab85fd69a655eae15993af0c9b603e74913"
+  },
+  "asama2_once": {
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/ASAMA2_RAPORU.md": "3acc694f915a356fdf6ca866bba7bdf26a8803c39dd2de61f861976d9cf9489c",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/dislanan_ornekler.csv": "ea6f558bb816c06bdd3ee18821c050855b466af154069242ed0623e9dcaea5b1",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/dogrulama.csv.gz": "3a470d955071c42b8607be1ddc218622ed13842a19e5f280ec11b4c051c06a7e",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/egitim.csv.gz": "4539b0cc0bc70fa05beee78ae1da2f45a4ac012415c8bab18cd2cfb4dd913cae",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/ozellik_sozlesmesi.json": "3b853fc5214300a2bb40e13fc5a0875b241140296f0602fd00587cb5a8793996",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/ozet.json": "81d8d10fe8331298009642d77e31a316105e24d0ba590a3b23405b90aa8a4ea8",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/son_gozlem_durumu.csv": "f3b66b518b596ac8fd68ae8e7b496ee311b30f4260e243a54b1585741ac3742d",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/son_gun_girdileri.csv": "2643e2b2fd0def5b1203ddef34c88e174f1bd9b24ff433e17f895c6864f4c6f5",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/test.csv.gz": "be73abc0ae11cd6d304ce151e88d58cb3b46f9ed15b73a50146a59804012e2e9",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/urun_kapsami.csv": "ace02063163fa29b25f86055cc5ff6fb96de6d6b56fde55fc9f09524f5237e5c",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/kaynak_manifestosu.json": "72a26f25117891f10af33de69bc8154a1c538cd202d14194ea570fa8e15e5c4a"
+  },
+  "asama2_sonra": {
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/ASAMA2_RAPORU.md": "3acc694f915a356fdf6ca866bba7bdf26a8803c39dd2de61f861976d9cf9489c",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/dislanan_ornekler.csv": "ea6f558bb816c06bdd3ee18821c050855b466af154069242ed0623e9dcaea5b1",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/dogrulama.csv.gz": "3a470d955071c42b8607be1ddc218622ed13842a19e5f280ec11b4c051c06a7e",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/egitim.csv.gz": "4539b0cc0bc70fa05beee78ae1da2f45a4ac012415c8bab18cd2cfb4dd913cae",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/ozellik_sozlesmesi.json": "3b853fc5214300a2bb40e13fc5a0875b241140296f0602fd00587cb5a8793996",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/ozet.json": "81d8d10fe8331298009642d77e31a316105e24d0ba590a3b23405b90aa8a4ea8",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/son_gozlem_durumu.csv": "f3b66b518b596ac8fd68ae8e7b496ee311b30f4260e243a54b1585741ac3742d",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/son_gun_girdileri.csv": "2643e2b2fd0def5b1203ddef34c88e174f1bd9b24ff433e17f895c6864f4c6f5",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/test.csv.gz": "be73abc0ae11cd6d304ce151e88d58cb3b46f9ed15b73a50146a59804012e2e9",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/urun_kapsami.csv": "ace02063163fa29b25f86055cc5ff6fb96de6d6b56fde55fc9f09524f5237e5c",
+    "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama2/kaynak_manifestosu.json": "72a26f25117891f10af33de69bc8154a1c538cd202d14194ea570fa8e15e5c4a"
+  },
+  "kaynaklar_degismedi": true,
+  "kod_sha256": "53c64447e9e54e366d776ddfb2e319c34a68436447d02ab9cc425098e68e9742",
+  "paket_surumleri": {
+    "python": "3.14.7",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1"
+  },
+  "cikti_sha256": {
+    "ASAMA3_RAPORU.md": "6754fb8ecbd13572b50ca627855113b28f0fd341af9fbedc44e3de5224ea78f7",
+    "baseline_sozlesmesi.json": "6e6e4cbc24e80be9edc4e0cad39a110595d78927ea41ff88b972304b0134c0ba",
+    "dogrulama_tahminleri.csv.gz": "4194fbf1d1974c2601c2e3567579c5632fd0bd6279906bc856d6941b0cd30908",
+    "kapsam_ozeti.csv": "3077c9875d0797fa6b45acd5f2167a809c085b8646abaf502a242edc3afcd21e",
+    "ozet.json": "debe010697d92fbb2c78da0373c6ec3a85f883fd88ce5ddd9b7be2dd3e61b02b",
+    "seri_metrikleri.csv": "0b737583368c4d7fd9c92f1f86b5af28ef722ca56492b5dd37298d244df65c0e",
+    "test_tahminleri.csv.gz": "43e59fe3a1439b3f116242dee56fcc0e4b0c5709f54926f67fca929e8c089a0f"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "asama": "Aşama 6 — Satın Alma Karar Destek Sistemi",
+  "varsayilan_model_kodu": "random_forest",
+  "aktif_seri_sayisi": 91,
+  "toplam_senaryo_satiri": 273,
+  "aritmetik_orta_beklenti_dagilimi": {
+    "Düşük Değişim Beklentisi": 86,
+    "Fiyat Düşüşü Beklentisi": 5
+  },
+  "ornek_sepet_ozeti": {
+    "kalem_sayisi": 4,
+    "toplam_mevcut_maliyet_tl": 18045.0,
+    "toplam_tahmini_maliyet_tl": 18054.021403366318,
+    "toplam_maliyet_farki_tl": 9.021403366317827,
+    "toplam_degisim_orani_yuzde": 0.049993922783695355,
+    "toplam_mae_belirsizlik_bandi_tl": 1393.3052422189219
+  }
+}

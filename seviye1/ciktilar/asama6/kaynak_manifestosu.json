@@ -1,0 +1,48 @@
+{
+  "asama": "asama6_satin_alma",
+  "olusturulma_zamani": "2026-10-27T17:03:27.732637+00:00",
+  "girdiler": [
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama4/son_gun_tahminleri.csv",
+      "boyut_bayt": 556530,
+      "sha256": "85b2f67f14d794f620bbae32c59ad5f6434d0c05c9aba9dc0293bbff77b63573"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama4/model_kayit_defteri.json",
+      "boyut_bayt": 18677,
+      "sha256": "bca24f83efe08ab9b622bcc1daefecae6f0db3746a6fbf0093ca8eecc74625cd"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/seri_bazli_model_karsilastirma.csv",
+      "boyut_bayt": 776124,
+      "sha256": "33c4a763c6fe6b015073cc7609a465b1f782ab62b19cd6a3a63545af6eb90585"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama5/model_karsilastirma_ozeti.csv",
+      "boyut_bayt": 5101,
+      "sha256": "d8c8598d339cfdb1b16eaaec29f664d72b6641187e6eaa98c4e6cabe02d77622"
+    }
+  ],
+  "ciktilar": [
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama6/ornek_satin_alma_senaryolari.csv",
+      "boyut_bayt": 175778,
+      "sha256": "60e0bf7da08cace59efd212b4bedd07dbdab4fce3d7cfd1eac9a42fffdb75c27"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama6/ornek_sepet_simulasyonu.json",
+      "boyut_bayt": 11099,
+      "sha256": "0eeb16f70fc57d4bbfed819229d9dafdf20a48d08a19f749172dcf00ec2ddeeb"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama6/ozet.json",
+      "boyut_bayt": 600,
+      "sha256": "458b7c82e2b790d264329f57950754bc3c271a3a21c83a9a8464fabd72d3c3c7"
+    },
+    {
+      "yol": "/Users/burakdemirel/Documents/ChatGPT/New project 7/ibb_hal/seviye1/ciktilar/asama6/ASAMA6_RAPORU.md",
+      "boyut_bayt": 2143,
+      "sha256": "46f1b65ff5c6d4e84198a8b2ef5ad6035d4298186ab2b5daf0d3fe1c17ff0dc0"
+    }
+  ]
+}

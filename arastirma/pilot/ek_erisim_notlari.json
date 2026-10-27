@@ -1,0 +1,58 @@
+{
+  "denetim_tarihi": "2026-10-27",
+  "swagger_html": {
+    "dosya": "ibb_swagger.html",
+    "http": 200,
+    "sha256": "32daeff22fe7a5b8f435a622dbc7a8253eb17ec86bb215b0241915ce4b799068"
+  },
+  "swagger_belgesi": {
+    "url": "https://halfiyatlaripublicdata.ibb.gov.tr/swagger/docs/v1",
+    "sonuc": "İki istekte RemoteDisconnected; birim sözlüğü doğrulanamadı."
+  },
+  "mdpi_tam_metin": {
+    "url": "https://www.mdpi.com/2071-1050/18/1/503",
+    "sonuc": "Web aracı HTTP 429; yayıncı arama dizini metniyle sınırlı inceleme."
+  },
+  "kaynak_baglantilari": [
+    "https://data.ibb.gov.tr/tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi",
+    "https://halfiyatlaripublicdata.ibb.gov.tr/swagger/ui/index",
+    "https://data.ibb.gov.tr/license",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB%2BTR/Main%2BMenu/Temel%2BFaaliyetler/Doviz%2BEfektif/Doviz%2Bve%2BEfektif%2BPiyasalari/Gosterge%2BNiteligindeki%2BKurlar",
+    "https://www.tcmb.gov.tr/kurlar/202610/05102026.xml",
+    "https://evds2.tcmb.gov.tr/help/videos/EVDS_PYTHON_Kullanim_Kilavuzu.pdf",
+    "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=153",
+    "https://open-meteo.com/en/docs/historical-weather-api",
+    "https://open-meteo.com/en/terms",
+    "https://open-meteo.com/en/docs/historical-forecast-api",
+    "https://open-meteo.com/en/docs/previous-runs-api",
+    "https://veriportali.tuik.gov.tr/Bulten/Index?p=Bitkisel-Uretim-Istatistikleri-2025-53939",
+    "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+    "https://www.mgm.gov.tr/site/bilgi-edinme.aspx?r=a",
+    "https://www.hal.gov.tr/Sayfalar/1_FiyatDetaylari.aspx",
+    "https://www.epdk.gov.tr/Detay/Icerik/3-0-0-1205/illere-gore-akaryakit-bayi-fiyatlari-raporu",
+    "https://bildirim.epdk.gov.tr/bildirim-portal/faces/pages/tarife/petrol/illereGorePetrolAkaryakitFiyatSorgula.xhtml",
+    "https://veriportali.tuik.gov.tr/tr/press/54024",
+    "https://veriportali.tuik.gov.tr/tr/press/57972/metadata",
+    "https://veriportali.tuik.gov.tr/Bulten/Index?dil=1&p=T%C3%BCketici-Fiyat-Endeksi-Ocak-2026-58293",
+    "https://arastirma.tarimorman.gov.tr/tepge/Menu/37/",
+    "https://antalya.bel.tr/BilgiEdin/halden-gunluk-fiyatlar",
+    "https://www.fao.org/worldfoodsituation/FoodPricesIndex/en/",
+    "https://www.worldbank.org/en/research/commodity-markets",
+    "https://www.scielo.br/j/cr/a/WZs4CVKzPLzSkwbHDKsj5zd/?lang=en",
+    "https://www.custoseagronegocioonline.com.br/numero4v8/Tomato%20english.pdf",
+    "https://link.springer.com/article/10.1007/s00521-024-09679-x",
+    "https://link.springer.com/article/10.1007/s10287-026-00576-3",
+    "https://onlinelibrary.wiley.com/doi/10.1111/exsy.70254",
+    "https://www.mdpi.com/2071-1050/18/1/503",
+    "https://proceedings.neurips.cc/paper_files/paper/2022/hash/0378c7692da36807bdec87ab043cdadc-Abstract-Datasets_and_Benchmarks.html",
+    "https://arxiv.org/abs/2008.00444",
+    "https://proceedings.mlr.press/v139/xu21h.html",
+    "https://otexts.com/fpp3/toolbox.html",
+    "https://scikit-learn.org/stable/auto_examples/applications/plot_time_series_lagged_features.html",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+    "https://pandas.pydata.org/docs/reference/api/pandas.merge_asof.html",
+    "https://scikit-learn.org/stable/auto_examples/inspection/plot_permutation_importance_multicollinear.html",
+    "https://xgboost.readthedocs.io/en/release_2.1.0/python/examples/quantile_regression.html"
+  ],
+  "kapsam": "Bu kontrol dosya bütünlüğünü ve pilot yanıtlarını doğrular; bütün dönem verisinin kalitesini veya tahmin başarısını doğrulamaz."
+}

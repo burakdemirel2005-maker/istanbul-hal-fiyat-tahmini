@@ -1,0 +1,197 @@
+{
+  "bolum_bazli_sureklilik": {
+    "egitim": {
+      "ornek_sayisi": 303394,
+      "seri_sayisi": 285,
+      "tarih_baslangic": "2016-02-01",
+      "tarih_bitis": "2024-10-24",
+      "hedef_min_degismedi_orani": 0.9310302774609913,
+      "hedef_max_degismedi_orani": 0.9058715729381597,
+      "her_iki_hedef_degismedi_orani": 0.8985477629748776,
+      "kesirli_fiyat_orani": 0.14313071451643739,
+      "ortalama_fiyat_min_tl": 13.758634481894829,
+      "medyan_fiyat_min_tl": 5.0,
+      "ortalama_mutlak_degisim_min_tl": 0.18182594250380693,
+      "ortalama_mutlak_degisim_max_tl": 0.30260532508882837
+    },
+    "dogrulama": {
+      "ornek_sayisi": 30361,
+      "seri_sayisi": 152,
+      "tarih_baslangic": "2024-10-25",
+      "tarih_bitis": "2025-10-23",
+      "hedef_min_degismedi_orani": 0.943051941635651,
+      "hedef_max_degismedi_orani": 0.9299759559961793,
+      "her_iki_hedef_degismedi_orani": 0.921577023154705,
+      "kesirli_fiyat_orani": 0.0,
+      "ortalama_fiyat_min_tl": 44.19986166463555,
+      "medyan_fiyat_min_tl": 30.0,
+      "ortalama_mutlak_degisim_min_tl": 0.5838740489443695,
+      "ortalama_mutlak_degisim_max_tl": 0.722242350383716
+    },
+    "test": {
+      "ornek_sayisi": 21141,
+      "seri_sayisi": 123,
+      "tarih_baslangic": "2025-10-24",
+      "tarih_bitis": "2026-10-23",
+      "hedef_min_degismedi_orani": 0.4166311905775507,
+      "hedef_max_degismedi_orani": 0.36270753512132825,
+      "her_iki_hedef_degismedi_orani": 0.24104820017974551,
+      "kesirli_fiyat_orani": 0.0,
+      "ortalama_fiyat_min_tl": 60.06730996641597,
+      "medyan_fiyat_min_tl": 38.0,
+      "ortalama_mutlak_degisim_min_tl": 5.0699588477366255,
+      "ortalama_mutlak_degisim_max_tl": 6.052646516248049
+    }
+  },
+  "yillik_sureklilik": [
+    {
+      "yil": 2016,
+      "ornek_sayisi": 25268,
+      "seri_sayisi": 203,
+      "hedef_min_degismedi_orani": 0.8600997308849138,
+      "hedef_max_degismedi_orani": 0.8190992559759379,
+      "kesirli_fiyat_orani": 0.3608120943485832,
+      "ortalama_fiyat_min_tl": 8.072486940003165,
+      "ortalama_mutlak_degisim_min_tl": 0.2030750356181732
+    },
+    {
+      "yil": 2017,
+      "ornek_sayisi": 37945,
+      "seri_sayisi": 208,
+      "hedef_min_degismedi_orani": 0.8410067202529977,
+      "hedef_max_degismedi_orani": 0.8283041243905653,
+      "kesirli_fiyat_orani": 0.26910001317696663,
+      "ortalama_fiyat_min_tl": 9.413909606008696,
+      "ortalama_mutlak_degisim_min_tl": 0.314860983001713
+    },
+    {
+      "yil": 2018,
+      "ornek_sayisi": 38065,
+      "seri_sayisi": 193,
+      "hedef_min_degismedi_orani": 0.9549717588335741,
+      "hedef_max_degismedi_orani": 0.9309601996584789,
+      "kesirli_fiyat_orani": 0.2716668855904374,
+      "ortalama_fiyat_min_tl": 8.847479311703664,
+      "ortalama_mutlak_degisim_min_tl": 0.09619860764481807
+    },
+    {
+      "yil": 2019,
+      "ornek_sayisi": 35662,
+      "seri_sayisi": 204,
+      "hedef_min_degismedi_orani": 0.9481520946665919,
+      "hedef_max_degismedi_orani": 0.9208120688688239,
+      "kesirli_fiyat_orani": 0.15767483595984522,
+      "ortalama_fiyat_min_tl": 8.22208373058157,
+      "ortalama_mutlak_degisim_min_tl": 0.08986596377096069
+    },
+    {
+      "yil": 2020,
+      "ornek_sayisi": 34936,
+      "seri_sayisi": 166,
+      "hedef_min_degismedi_orani": 0.9607568124570643,
+      "hedef_max_degismedi_orani": 0.9310739638195558,
+      "kesirli_fiyat_orani": 0.11355049232882986,
+      "ortalama_fiyat_min_tl": 8.03187256697962,
+      "ortalama_mutlak_degisim_min_tl": 0.07507012823448592
+    },
+    {
+      "yil": 2021,
+      "ornek_sayisi": 34528,
+      "seri_sayisi": 176,
+      "hedef_min_degismedi_orani": 0.9387164040778498,
+      "hedef_max_degismedi_orani": 0.9229610750695088,
+      "kesirli_fiyat_orani": 0.09890523632993513,
+      "ortalama_fiyat_min_tl": 9.544271316033363,
+      "ortalama_mutlak_degisim_min_tl": 0.12623522937905468
+    },
+    {
+      "yil": 2022,
+      "ornek_sayisi": 35371,
+      "seri_sayisi": 178,
+      "hedef_min_degismedi_orani": 0.9366995561335557,
+      "hedef_max_degismedi_orani": 0.913516722738967,
+      "kesirli_fiyat_orani": 0.014277232761301632,
+      "ortalama_fiyat_min_tl": 17.491770094144922,
+      "ortalama_mutlak_degisim_min_tl": 0.2691979305080433
+    },
+    {
+      "yil": 2023,
+      "ornek_sayisi": 35761,
+      "seri_sayisi": 175,
+      "hedef_min_degismedi_orani": 0.9646262688403568,
+      "hedef_max_degismedi_orani": 0.9229328038925086,
+      "kesirli_fiyat_orani": 0.006879002265037331,
+      "ortalama_fiyat_min_tl": 25.195408405805207,
+      "ortalama_mutlak_degisim_min_tl": 0.2169821872990129
+    },
+    {
+      "yil": 2024,
+      "ornek_sayisi": 31896,
+      "seri_sayisi": 169,
+      "hedef_min_degismedi_orani": 0.9678643090042639,
+      "hedef_max_degismedi_orani": 0.9552921996488588,
+      "kesirli_fiyat_orani": 0.0,
+      "ortalama_fiyat_min_tl": 34.45867820416353,
+      "ortalama_mutlak_degisim_min_tl": 0.3074993729621269
+    },
+    {
+      "yil": 2025,
+      "ornek_sayisi": 28560,
+      "seri_sayisi": 155,
+      "hedef_min_degismedi_orani": 0.8832282913165266,
+      "hedef_max_degismedi_orani": 0.8621148459383754,
+      "kesirli_fiyat_orani": 0.0,
+      "ortalama_fiyat_min_tl": 45.6109943977591,
+      "ortalama_mutlak_degisim_min_tl": 1.0711484593837535
+    },
+    {
+      "yil": 2026,
+      "ornek_sayisi": 16904,
+      "seri_sayisi": 122,
+      "hedef_min_degismedi_orani": 0.37854945575011834,
+      "hedef_max_degismedi_orani": 0.32725982016090865,
+      "kesirli_fiyat_orani": 0.0,
+      "ortalama_fiyat_min_tl": 62.904401325130145,
+      "ortalama_mutlak_degisim_min_tl": 5.411026975863701
+    }
+  ],
+  "ortak_106_seri_karsilastirmasi": {
+    "ortak_seri_sayisi": 106,
+    "dogrulama_ornek_sayisi": 21741,
+    "test_ornek_sayisi": 19754,
+    "dogrulama_hedef_min_degismedi_orani": 0.9311899176670806,
+    "dogrulama_hedef_max_degismedi_orani": 0.9149533140149947,
+    "test_hedef_min_degismedi_orani": 0.4245722385339678,
+    "test_hedef_max_degismedi_orani": 0.3706591070163005
+  },
+  "yapisal_kirilma_2025_10_03": {
+    "kirilma_tarihi": "2025-10-03",
+    "onceki_islem_gunu": "2025-10-02",
+    "2025_10_02_seri_sayisi": 125,
+    "2025_10_03_seri_sayisi": 92,
+    "2025_10_03_dusen_seri_sayisi": 35,
+    "2025_10_03_korunan_seri_sayisi": 90,
+    "dusen_seriler_ornek": [
+      "0198546c-ffb1-4f2f-8ba5-cf1858d1112b|b1|h2|k6|a1",
+      "03798382-154d-4cf3-8d38-8451732fb0ce|b1|h2|k6|a1",
+      "0b160b51-e7f0-4f55-b240-ab9ffbf4b1f0|b5|h2|k6|a1",
+      "295ea9b8-8e87-42ad-8e27-1741623a4663|b1|h2|k7|a1",
+      "300b8aee-02f1-475b-894a-3bc5b2c69e33|b1|h2|k6|a1",
+      "33024ec3-be06-4ac7-b8ef-90f29a65ad3e|b1|h2|k5|a1",
+      "35177af9-7c95-4801-92cc-dcc640a91660|b1|h2|k6|a1",
+      "362e33a6-8fe8-4484-a70a-565522b4ccf3|b1|h2|k6|a1",
+      "3c0c1b87-0a44-4d79-ac06-ec5d4bc85333|b7|h2|k5|a1",
+      "3e8a1885-259a-4a0b-9bdc-5198da342f6f|b3|h2|k6|a1",
+      "45c2a9b4-84e8-42cb-aae0-940d20214101|b1|h2|k7|a1",
+      "56db6bb7-7202-421a-99a6-ea090bbc72e0|b1|h2|k6|a1"
+    ],
+    "dusen_serilerin_kirilma_oncesi_sabit_kalma_orani": 0.9733678086619263,
+    "korunan_serilerin_kirilma_oncesi_sabit_kalma_orani": 0.9565421291230264,
+    "korunan_serilerin_kirilma_sonrasi_dogrulama_sabit_kalma_orani": 0.48708751793400284,
+    "korunan_serilerin_test_sabit_kalma_orani": 0.4225745794582508,
+    "dogrulama_kirilma_oncesi_toplam_ornek": 29615,
+    "dogrulama_kirilma_oncesi_same_min_orani": 0.9634644605774101,
+    "dogrulama_kirilma_sonrasi_toplam_ornek": 1609,
+    "dogrulama_kirilma_sonrasi_same_min_orani": 0.4512119328775637
+  }
+}

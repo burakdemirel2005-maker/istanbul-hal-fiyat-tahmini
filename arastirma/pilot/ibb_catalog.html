@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="tr" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="tr"> <!--<![endif]-->
+  <head>
+    
+  <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.9.11" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="description" content="">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+  <link rel="canonical" href="https://data.ibb.gov.tr/">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1YMZE2V60"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-J1YMZE2V60');
+  </script>
+
+
+    <title>Hal Ürünleri ve Fiyatları Web Servisi - Veri Setleri - İBB</title>
+
+    
+    <link rel="shortcut icon" href="/favicon.png" />
+    
+   
+  
+    
+      
+      
+      
+    
+    
+    
+
+      <link rel="stylesheet" href="/base/css/style.css" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      <script src="/base/javascript/dataset-detail.js"></script>
+
+   <link rel="stylesheet" href="/css/multilang.css" type="text/css">
+
+
+    
+      
+      
+    
+  
+  <meta property="og:title" content="Hal Ürünleri ve Fiyatları Web Servisi - IMM">
+  <meta property="og:description" content="İstanbul&amp;#39;da bulunan meyve sebze Hal&amp;#39;ine ait bilgileri içerir.">
+
+
+    
+    <link href="/webassets/base/71771def_main.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-geoview/f197a782_geo-resource-styles.css" rel="stylesheet"/>
+    
+  </head>
+
+  
+  <body data-site-root="https://data.ibb.gov.tr/" data-locale-root="https://data.ibb.gov.tr/tr/" >
+
+    
+    <div class="skip-link-container">
+      <a class="sr-only sr-only-focusable" href="#main-content">İçeriğe atla</a>
+    </div>
+  
+
+  
+    
+<!-- header start -->
+<header id="header">
+    <nav class="navbar navbar-expand-xl navbar-light bg-white fixed-top shadow-sm pt-1 pb-0">
+        <div class="container my-sm-0 my-1 px-0 container-navbar">
+            <a class="navbar-brand d-flex align-items-center ms-xl-0 ms-md-5 ms-sm-0" href="/tr/">
+                <img src="/base/images/ibb-logo-tr.png" alt="ibb-logo" class="me-0">
+                <span class="border-end" aria-hidden="true"></span>
+                <p class="mb-0 ms-2 mt-1 text-uppercase fw-bold w-50">AÇIK VERİ PORTALI</p>
+            </a>
+            
+            <button class="navbar-toggler border-0 hamburger me-xl-0 me-md-5 me-sm-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Menüyü aç veya kapat">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+               
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  
+                    <li class="nav-item dropdown p-xl-0 py-sm-3 py-2">
+                        <a class="nav-link dropdown-toggle text-uppercase" href="#" 
+                        id="navbarDropdown" role="button" 
+                        data-bs-toggle="dropdown" 
+                        aria-expanded="false">
+                            Hakkımızda
+                        </a>
+                        <ul class="dropdown-menu shadow-sm border-0 px-2 py-0 py-lg-3 rounded-top-0" id="navbarDropdown-ul" aria-labelledby="navbarDropdown">
+                            <li class="pb-2">
+                                <a class="dropdown-item nav-link text-capitalize fw-bold d-lg-inline d-inline-block" href="/tr/about">
+                                    Genel Bakış
+                                </a>
+                            </li>
+                            <li class="pb-2">
+                                <a class="dropdown-item nav-link text-capitalize fw-bold d-lg-inline d-inline-block" href="/tr/open_data_usage">
+                                    Açık Veri Portalı Kullanımı
+                                </a>
+                            </li>
+                            <li class="pb-2">
+                                <a class="dropdown-item nav-link text-capitalize fw-bold d-lg-inline d-inline-block" href="/tr/open_data_dictionary">
+                                    Açık Veri Sözlüğü
+                                </a>
+                            </li>
+                            <li class="pb-2">
+                                <a class="dropdown-item nav-link text-capitalize fw-bold d-lg-inline d-inline-block" href="/tr/privacy">
+                                    Gizlilik Politikası
+                                </a>
+                            </li>
+                            <li class="pb-2">
+                                <a class="dropdown-item nav-link text-capitalize fw-bold d-lg-inline d-inline-block" href="/tr/related">
+                                    İlgili Linkler
+                                </a>
+                            </li>
+                            <li class="pb-2">
+                                <a class="dropdown-item nav-link text-capitalize fw-bold d-lg-inline d-inline-block" href="/tr/terms_of_use">
+                                    Kullanım Koşulları
+                                </a>
+                            </li>
+                            <li class="pb-2">
+                                <a class="dropdown-item nav-link text-capitalize fw-bold d-lg-inline d-inline-block" href="/tr/license">
+                                    Lisans
+                                </a>
+                            </li>
+                            <li class="pb-2">
+                                <a class="dropdown-item nav-link text-capitalize fw-bold d-lg-inline d-inline-block" href="/tr/organization/">
+                                    Organizasyonlar
+                                </a>
+                            </li>
+                            <li class="pb-2">
+                                <a class="dropdown-item nav-link text-capitalize fw-bold d-lg-inline d-inline-block" href="/tr/faq">
+                                    Sık Sorulan Sorular
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item p-xl-0 py-sm-3 py-2">
+                        <a class="nav-link text-uppercase fw-bold" href="/tr/dataset/">Veri Setleri</a>
+                    </li>
+                    <li class="nav-item p-xl-0 py-3">
+                        <a class="nav-link text-uppercase fw-bold" href="/tr/visualization_tool">Görselleştirme Aracı</a>
+                    </li>
+                    <li class="nav-item p-xl-0 py-sm-3 py-2">
+                        <a class="nav-link text-uppercase fw-bold" href="/tr/statistics_dashboard">Gösterge Paneli</a>
+                    </li>
+                    <li class="nav-item p-xl-0 py-sm-3 py-2">
+                        <a class="nav-link text-uppercase fw-bold" href="/tr/showcase">Proje Galerisi</a>
+                    </li>
+                    <li class="nav-item p-xl-0 py-sm-3 py-2">
+                        <a class="nav-link text-uppercase fw-bold" href="/tr/datarequest">Veri İstekleri</a>
+                    </li>
+                    <li class="nav-item p-xl-0 py-sm-3 py-2 me-lg-2 me-0">
+                        <a class="nav-link text-uppercase fw-bold" href="/tr/contact">İletişim</a>
+                    </li>
+                    <li class="d-block d-xl-none nav-item p-xl-0 py-sm-3 py-2 me-lg-2 me-0">
+                        <a class="nav-link text-uppercase fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Giriş Yap / Üye ol
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="nav-item p-xl-0 py-sm-3 py-2 d-xl-none">
+                        <a class="nav-link text-uppercase fw-bold login_sign-up-open" href="/tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi">Türkçe</a>
+                    </li>
+                 
+                    <li class="nav-item p-xl-0 py-sm-3 py-2 d-xl-none">
+                        <a class="nav-link text-uppercase fw-bold login_sign-up-open" href="/en/dataset/hal-urunleri-ve-fiyatlari-web-servisi">English</a>
+                    </li>
+                 
+                </ul>
+                <span class="border-end d-none d-xl-block"></span>
+                <div class="d-xl-flex ms-xl-3 align-items-center">
+                    
+                        <a href="#" id="login_sign-up" class="d-none d-xl-block nav-link" aria-label="Giriş yap veya kayıt ol" title="Giriş yap veya kayıt ol">
+                            <i class="fa-solid fa-user" style="color: #6a7073;" aria-hidden="true"></i>
+                        </a>
+                    
+                
+                    <li class="out-responsive list-group-item" style="border-top: 1px solid rgba(123, 126, 127, 0.3);">
+                        <!-- <hr class="mt-0 mb-0" style="background-color: (123, 126, 127, 0.3);"> -->
+                        <a href="#" 
+                           id="login-sign-up-responsive" 
+                           class="d-xl-none d-block nav-link w-100 text-center py-sm-3 py-2">
+                           <i class="fa-solid fa-user" style="color: #6a7073;"></i>
+                        </a>
+                    </li>
+                    
+                    <ul class="dropdown-menu bg-white border-0 out" id="login_sign-up_close">
+                        
+                            <li>
+                                <a href="#" class="dropdown-item fw-bold py-2 px-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Giriş Yap / Üye ol</a>
+                            </li>
+                        
+                    </ul>
+                    
+                    <!-- responsive yapı -->
+                    <ul class="dropdown-menu d-xl-none d-block d-flex align-items-center justify-content-center flex-wrap bg-white border-0 out-responsive-ul" id="login_sign-up_close-responsive">
+                        
+                            <li>
+                                <a href="#" class="dropdown-item fw-bold py-2 px-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Giriş Yap / Üye ol</a>
+                            </li>
+                        
+                    </ul>
+                    
+                    <a href="#" id="languages" class="d-none d-xl-block nav-link ms-3" aria-label="Dili değiştir">
+                        <i class="fa-solid fa-language" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-white border-0" id="languages-close">
+                        
+                           <li class="dropdown-item fw-bold">
+                               <a class="nav-link py-2 px-3" href="/tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi">Türkçe</a>
+                           </li>
+                        
+                           <li class="dropdown-item fw-bold">
+                               <a class="nav-link py-2 px-3" href="/en/dataset/hal-urunleri-ve-fiyatlari-web-servisi">English</a>
+                           </li>
+                        
+                    </ul>
+                </div>
+                
+                
+            </div>
+        </div>
+    </nav>
+</header> 
+<!-- header end -->
+
+    <!-- Modal -->
+<div class="modal fade" 
+     id="exampleModal" 
+     tabindex="-1" 
+     role="dialog"
+     aria-labelledby="exampleModalLabel" 
+     aria-describedby="modalDescription"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-box" role="document">
+        <div class="modal-content modal-box-content">
+            <div class="modal-header p-3">
+                <h5 class="modal-title fw-bold" id="exampleModalLabel">
+                    Üyelik İşlemleri
+                </h5>
+                <button type="button" 
+                        class="btn-close" 
+                        data-bs-dismiss="modal" 
+                        aria-label="Üyelik işlemleri diyalogunu kapat"
+                        title="Kapat">
+                </button>
+            </div>
+            <div class="modal-body p-3 modal-box-body">
+                <div id="modalDescription">
+                    <p class="mb-0">
+                        Değerli vatandaşlarımız,<br>İBB Açık Veri Portalı kullanıcı altyapımızı güncelledik. Bundan sonraki süreçte “İBB Giriş” ekranı ile Açık Veri Portalı’na giriş yapabilirsiniz. Sisteme kayıtlı hesabınızla devam etmek için İBB Hesabım’a kaydolurken mevcut e-posta adresinizi girmelisiniz.
+                    </p>
+                </div>
+            </div>
+            <div class="modal-footer border-top-0 justify-content-center pt-lg-0 pt-2 modal-box-footer">
+                <a class="py-lg-2 px-lg-4 py-1 px-3 rounded text-decoration-none btn btn-primary" 
+                   href="https://api2.ibb.istanbul/auth/oauth/v2/authorize?response_type=code&amp;scope=openid profile ibb_user&amp;client_id=ibb-acik-veri-portal-client&amp;state=1793113679&amp;redirect_uri=https://data.ibb.gov.tr/ibb_giris/signin"
+                   role="button"
+                   aria-label="İBB Hesabım ile Giriş">
+                    İBB Hesabım ile Giriş
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+      
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/base/javascript/header.js"></script>
+
+  
+  <section class="w-100 position-relative pop-ds-cart-example-h-top">
+    <div class="d-flex justify-content-between text-white pop-ds-cart-example-h-top-text">
+      <h4 class="fw-bold">
+        
+          Hal Ürünleri ve Fiyatları Web Servisi
+          
+          
+      
+      </h4>
+      <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap pop-ds-cart-example-h-top-text-icons">
+
+        
+
+        <!-- <span class="d-flex align-items-center justify-content-center pop-ds-cart-example-h-top-text-icon-1">
+          <i class="me-1 fa-solid fa-users"></i>
+          <span>0</span>
+        </span> -->
+      <a href="/dataset/hal-urunleri-ve-fiyatlari-web-servisi/feedback"
+        class="fb-hero-btn d-flex align-items-center justify-content-center gap-2 text-white text-decoration-none"
+        aria-label="Give feedback about this dataset">
+        <i class="fa-regular fa-comment-dots" aria-hidden="true"></i>
+        <span>Veri Seti Değerlendirme Anketi</span>
+      </a>
+        <span
+          class="d-flex align-items-center justify-content-center pop-ds-cart-example-h-top-text-icon-1" aria-label="Kullanıcı sayısı">
+
+          <i class="me-1 fa-solid fa-users" aria-hidden="true"></i>
+          <span >0</span>
+        </span>
+
+        <div class="dropdown pop-ds-cart-example-h-top-text-icon-2">
+          <button class="text-white bg-transparent border-0 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-share-alt"></i>
+          </button>
+          <!-- <ul class="bg-transparent border-0 py-0 dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li>
+              <a class="p-0 dropdown-item" href="https://www.facebook.com/sharer.php?u=https://data.ibb.gov.tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi">
+                <i class="text-white fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a class="p-0 dropdown-item" href="https://twitter.com/share?url=https://data.ibb.gov.tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi">
+                <i class="text-white fab fa-twitter-square"></i>
+              </a>
+            </li>
+            <li>
+              <a class="p-0 dropdown-item" href="https://www.linkedin.com/sharing/share-offsite/?url=https://data.ibb.gov.tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi">
+                <i class="text-white fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a class="p-0 dropdown-item" href="whatsapp://send?text=İBB Açık Veri">
+                <i class="text-white fab fa-whatsapp-square"></i>
+              </a>
+            </li>
+          </ul> -->
+          <ul class="bg-transparent border-0 py-0 dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+  <li>
+    <a
+      class="p-0 dropdown-item"
+      href="https://www.facebook.com/sharer.php?u=https://data.ibb.gov.tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi"
+      aria-label="Bu veri setini Facebook'ta paylaş">
+      <i class="text-white fab fa-facebook-square" aria-hidden="true"></i>
+    </a>
+  </li>
+
+  <li>
+    <a
+      class="p-0 dropdown-item"
+      href="https://twitter.com/share?url=https://data.ibb.gov.tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi"
+      aria-label="Bu veri setini X'te paylaş">
+      <i class="text-white fab fa-twitter-square" aria-hidden="true"></i>
+    </a>
+  </li>
+
+  <li>
+    <a
+      class="p-0 dropdown-item"
+      href="https://www.linkedin.com/sharing/share-offsite/?url=https://data.ibb.gov.tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi"
+      aria-label="Bu veri setini LinkedIn'de paylaş">
+      <i class="text-white fab fa-linkedin" aria-hidden="true"></i>
+    </a>
+  </li>
+
+  <li>
+    <a
+      class="p-0 dropdown-item"
+      href="whatsapp://send?text=İBB Açık Veri"
+      aria-label="Bu veri setini WhatsApp üzerinden paylaş">
+      <i class="text-white fab fa-whatsapp-square" aria-hidden="true"></i>
+    </a>
+  </li>
+
+</ul>
+
+        </div>
+      </div>
+    </div>
+    <div class="text-white mt-4 pop-ds-cart-example-h-top-tags">
+      <div class="d-flex align-items-center flex-wrap pop-ds-cart-example-h-top-tag-1">
+        
+        
+        
+          
+          <span class="">
+            <i class="fas fa-user-cog"></i>
+            <a href="/tr/organization/muhtarliklar-daire-baskanligi">Department of Agricultural Services</a>
+          </span>  
+        
+      
+        <span class="">
+          <i class="fa fa-briefcase"></i>
+          <span>6.67</span>
+        </span>             
+          
+          
+  
+  <span class="data-info-box"><i class="fa fa-balance-scale" aria-hidden="true"></i> <a class="pull-right" rel="dc:rights" href="https://data.ibb.gov.tr/license">İstanbul Büyükşehir Belediyesi Açık Veri Lisansı</a></span>
+  
+
+                  
+      </div>
+      
+      <div class="text-white my-1 pop-ds-cart-example-h-top-tag-2">
+        <i class="fas fa-bezier-curve"></i>
+        <ul class="list-unstyled d-inline-block m-0">
+          
+            
+            
+            <li class="d-inline-block">
+              <a id="4ad821a7-241f-49b9-b82a-55a8fe62a290" href="/tr/group/ekonomi">Ekonomi</a>
+            </li>          
+          
+            
+            
+            <li class="d-inline-block">
+              <a id="b83606e1-9d68-44dc-a064-2c6737f2fb54" href="/tr/group/yasam">Yaşam</a>
+            </li>          
+          
+        </ul>
+        
+      </div>
+
+<script>
+function removeGroup(groupId, datasetName) {
+    fetch(`/dataset/groups/${datasetName}`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: `group_remove.${groupId}`
+    })
+    .then(response => response.json())
+    .then(data => {
+    })
+    .catch(error => {});
+}
+</script>
+      
+      
+        
+<div
+    class="text-white d-flex align-items-sm-center align-items-start pop-ds-cart-example-h-top-tag-3">
+    <i class="me-1 mt-sm-0 mt-2 fa fa-tags"></i>
+    <ul class="list-unstyled d-inline-block m-0">
+        
+<li class="d-inline-block">
+    <a class="tag" href="/tr/dataset/?tags=bayrampa%C5%9Fa">bayrampaşa</a>
+</li>
+
+<li class="d-inline-block">
+    <a class="tag" href="/tr/dataset/?tags=fiyat">fiyat</a>
+</li>
+
+<li class="d-inline-block">
+    <a class="tag" href="/tr/dataset/?tags=hal">hal</a>
+</li>
+
+<li class="d-inline-block">
+    <a class="tag" href="/tr/dataset/?tags=hal+fiyatlar%C4%B1">hal fiyatları</a>
+</li>
+
+<li class="d-inline-block">
+    <a class="tag" href="/tr/dataset/?tags=hal+fiyat%C4%B1">hal fiyatı</a>
+</li>
+
+<li class="d-inline-block">
+    <a class="tag" href="/tr/dataset/?tags=hal+%C3%BCr%C3%BCnleri">hal ürünleri</a>
+</li>
+
+<li class="d-inline-block">
+    <a class="tag" href="/tr/dataset/?tags=servis">servis</a>
+</li>
+
+<li class="d-inline-block">
+    <a class="tag" href="/tr/dataset/?tags=web">web</a>
+</li>
+
+<li class="d-inline-block">
+    <a class="tag" href="/tr/dataset/?tags=web+servis">web servis</a>
+</li>
+
+<li class="d-inline-block">
+    <a class="tag" href="/tr/dataset/?tags=%C3%BCr%C3%BCn">ürün</a>
+</li>
+
+    </ul>
+</div>
+
+      
+    </div>
+  </section>
+
+  <section class="d-flex align-items-start justify-content-center flex-lg-nowrap flex-wrap" id="popular-ds-cart-example-home-part">
+    <div class="pop-ds-cart-example-home-left">
+      <div class="bg-white rounded my-4 p-3 pb-0 pt-3 pt-sm-4 pop-ds-cart-example-home-left-1">
+        <h5 class="fw-bold" style="color: var(--blue-my);">Açıklama</h5>
+        <hr class="mt-1 mb-3">
+        <div class="pop-ds-cart-example-home-left-accordion-text">
+          
+            
+              <p class="m-0"><p>İstanbul'da bulunan meyve sebze Hal'ine ait bilgileri içerir.</p></p>
+            
+           
+        </div>
+        <button class="d-flex justify-content-center border-0 border-top border-black py-1 py-sm-3 m-auto bg-transparent pop-ds-cart-example-home-left-accordion-btn">
+          <span class="down-icon">
+            <i class="fa-solid fa-chevron-down"></i>
+          </span>
+        </button>
+      </div>
+      
+<div class="bg-white rounded my-4 p-3 pt-4 pop-ds-cart-example-home-left-2">
+  <h5 class="fw-bold" style="color: var(--blue-my);">Veri ve Kaynaklar</h5>
+  <hr class="my-1">
+  
+  <div class="d-flex justify-content-between align-items-center rounded py-2 pop-ds-cart-example-home-left-2-card">
+    
+      <ul class="list-group w-100">
+        
+          
+          
+            
+
+
+
+<li class="list-group-item border-0 d-flex align-items-center flex-wrap flex-sm-nowrap my-2 my-sm-0" data-id="6ec6d7bd-047d-488c-8f9c-ad883120c89b">
+  <div class="data-icon">
+    <a class="me-3" href="">
+      <img src="/base/images/file_icons/api.svg" alt="" style="width: 30px;">
+    </a>
+  </div>
+  <div class="d-flex flex-column my-2 my-sm-0 me-2 data-name">
+    <div href="">
+      <span>
+
+        
+        <a class="d-block" href="/tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi/resource/6ec6d7bd-047d-488c-8f9c-ad883120c89b" title="Hal Ürünleri ve Fiyatları Web Servisi" style="color: var(--blue-my);">
+          Hal Ürünleri ve Fiyatları Web Servisi
+          
+          
+
+        </a>
+        
+
+        
+        <span>
+          
+          <i data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Hal'de bulunan bütün ürün kategorilerini, bütün hal türlerini, bütün birim..." data-placement="bottom">Hal'de bulunan bütün ürün kategorilerini, bütün hal türlerini, bütün birim... </i>
+          
+        </span>
+
+        
+
+
+
+
+
+      </span>
+    </div>
+  </div>
+  <div class="d-flex data-btn rounded ms-sm-auto" style="border: 2px solid var(--blue-my);">
+
+    
+
+      <a lass="d-flex align-items-center justify-content-center text-decoration-none" href="/tr/dataset/hal-urunleri-ve-fiyatlari-web-servisi/resource/6ec6d7bd-047d-488c-8f9c-ad883120c89b" type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Ön izleme" data-bs-original-title="Ön izleme">
+        
+          <i class="fa fa-info-circle px-3 py-1" style="color: var(--blue-my); font-size: .8rem;"></i>
+          <!-- Daha fazla bilgi -->
+        
+        <span style="position: absolute; color: var(--blue-my); transform: translateX(-2px) scaleY(1.5);">|</span>
+      </a>
+
+    
+
+        
+        
+        
+        <a class="d-flex justify-content-center text-decoration-none"
+          
+            href="https://halfiyatlaripublicdata.ibb.gov.tr/swagger/ui/index"
+            
+            target="_blank"
+          
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+          aria-label="İndir"
+          data-bs-original-title="İndir">
+            
+              <i class="fa fa-external-link px-3 py-1 text-white" style="background-color: var(--blue-my); font-size: .8rem;"></i>
+              <!-- Kaynağa git -->
+            
+        </a>
+
+    
+    
+    
+  </div>
+</li>
+
+
+          
+        
+      </ul>
+    
+  </div>
+    
+</div>
+    </div>
+    
+      <div class="pop-ds-cart-example-home-right">
+  <div class="text-left rounded bg-white my-sm-4 my-0 p-3 pt-4 pop-ds-cart-example-home-right-card">
+    <h5 class="fw-bold">Ek Bilgiler</h5>
+    <hr class="my-1">    
+    
+      <p class="fw-bold mb-0 mt-3">
+        <i class="me-2 fas fa-pen-fancy"></i>Yazar
+      </p>
+      <p>Tarımsal Hizmetler Dairesi Başkanlığı</p>
+    
+    
+    
+      <p class="fw-bold mb-0">
+        <i class="me-2 fas fa-user-edit"></i>Güncelleyen
+      </p>
+      <p>Tarımsal Hizmetler Dairesi Başkanlığı</p>
+    
+
+    
+      <p class="fw-bold mb-0">
+        <i class="me-2 fas fa-calendar-alt"></i> Son Güncelleme
+      </p>
+      <p>
+<span class="automatic-local-datetime" data-datetime="2022-04-04T10:17:49+0000">
+    4 Nisan 2022
+</span></p>
+    
+    
+    
+      <p class="fw-bold mb-0">
+        <i class="me-2 fas fa-calendar-alt"></i> Oluşturulma tarihi
+      </p>
+      <p>
+<span class="automatic-local-datetime" data-datetime="2020-12-16T11:48:49+0000">
+    16 Aralık 2020
+</span></p>
+    
+  </div>
+</div>
+    
+  </section>
+  
+    <footer class="py-4 site-footer" role="contentinfo">
+  <div class="container-lg">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-sm-7 d-flex align-items-center footer-logo">
+        <img class="ms-sm-0 ms-2 me-2" src="/base/images/ibb-logo-tr.png" alt="İstanbul Büyükşehir Belediyesi Logosu">
+        <p class="align-items-center pt-2">© 2020 İBB Bilgi İşlem Dairesi Başkanlığı tarafından ❤️ ile tasarlanmıştır</p>
+      </div>
+      <div class="col-lg-6 col-sm-5 d-flex justify-content-sm-end justify-content-center social-media-icons">
+        <nav aria-label="Sosyal Medya Bağlantıları">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item rounded-circle text-center me-2 me-md-3 facebook">
+                <a href="https://www.facebook.com/istanbulbuyuksehirbld/" 
+                   aria-label="Facebook" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-inline-item rounded-circle text-center me-2 me-md-3 twitter">
+                <a href="https://twitter.com/istanbulbld" 
+                   aria-label="Twitter" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-inline-item rounded-circle text-center me-2 me-md-3 youtube">
+                <a href="https://www.youtube.com/@ibbtvcanli" 
+                   aria-label="YouTube" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-inline-item rounded-circle text-center me-2 me-md-3 instagram">
+                <a href="https://www.instagram.com/istanbulbuyuksehirbld/?hl=tr" 
+                   aria-label="Instagram" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-inline-item rounded-circle text-center linkedin">
+                <a href="https://www.linkedin.com/company/istanbul-buyuksehir-belediyesi/" 
+                   aria-label="LinkedIn" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="row mx-auto footer-links">
+      <!-- <nav class="d-flex justify-content-between" aria-label="Alt Menü Navigasyonu">
+        <ul class="column d-flex ps-0 mb-0 flex-column">
+            <li class="mb-2">
+              <a href="/tr/about">Genel Bakış</a>
+            </li>
+            <li class="mb-2">
+              <a href="https://www.ibb.istanbul/" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 aria-label="ibb.istanbul sitesini ziyaret edin">
+                ibb.istanbul
+              </a>
+            </li>
+            <li class="mb-2 sss">
+              <a href="/tr/faq">Sık Sorulan Sorular</a>
+            </li>
+          </ul>
+
+          <ul class="column d-flex ps-0 mb-0 flex-column">
+            <li class="mb-2">
+              <a href="/tr/open_data_dictionary" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 aria-label="Açık Veri Sözlüğü">
+                Açık Veri Sözlüğü
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="/tr/open_data_usage">Açık Veri Portalı Kullanımı</a>
+            </li>
+            <li class="mb-2">
+              <a href="/tr/cookie_policy">
+                Çerez Politikası
+              </a>
+            </li>            
+          </ul>
+
+          <ul class="column d-flex ps-0 mb-0 flex-column">
+            <li class="mb-2">
+              <a href="/tr/license">Lisans</a>
+            </li>
+            <li class="mb-2">
+              <a href="/tr/terms_of_use">Kullanım Koşulları</a>
+            </li>
+            <li class="mb-2">
+              <a href="/tr/privacy">Gizlilik Politikası</a>
+            </li>
+          </ul>
+      </nav> -->
+      <nav class="d-flex justify-content-between py-3" aria-label="Alt Menü Navigasyonu">
+        <ul class="column d-flex ps-0 mb-0 flex-column">
+            <li class="mb-2">
+              <a href="https://www.ibb.istanbul/" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 aria-label="ibb.istanbul sitesini ziyaret edin">
+                ibb.istanbul
+              </a>
+            </li>
+          </ul>
+          <ul class="column d-flex ps-0 mb-0 flex-column">
+            <li class="mb-2">
+              <a href="/tr/cookie_policy">
+                Çerez Politikası
+              </a>
+            </li>            
+          </ul>
+          <ul class="column d-flex ps-0 mb-0 flex-column">
+            <li class="mb-2">
+              <a href="https://www.akillisehir.istanbul/" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                 Akıllı Şehir
+              </a>
+            </li>
+          </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+  
+  
+  
+  
+    
+  
+  
+  <!-- Skip link JavaScript desteği -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const skipLink = document.querySelector('.sr-only-focusable');
+      if (skipLink) {
+        skipLink.addEventListener('click', function(e) {
+          e.preventDefault();
+          const target = document.querySelector('#main-content');
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth' });
+            target.focus();
+            // Focus outline'ı görünür yap
+            target.style.outline = '3px solid #005fcc';
+            target.style.outlineOffset = '2px';
+            
+            // 3 saniye sonra outline'ı kaldır
+            setTimeout(function() {
+              target.style.outline = 'none';
+            }, 3000);
+          }
+        });
+      }
+    });
+  </script>
+  
+  
+    
+
+      
+
+    
+    
+    <link href="/webassets/vendor/f3b8236b_select2.css" rel="stylesheet"/>
+<link href="/webassets/vendor/0b01aef1_font-awesome.css" rel="stylesheet"/>
+    <script src="/webassets/vendor/d8ae4bed_jquery.js" type="text/javascript"></script>
+<script src="/webassets/vendor/3f01ce36_vendor.js" type="text/javascript"></script>
+<script src="/webassets/vendor/580fa18d_bootstrap.js" type="text/javascript"></script>
+<script src="/webassets/base/15a18f6c_main.js" type="text/javascript"></script>
+<script src="/webassets/base/2448af8b_ckan.js" type="text/javascript"></script>
+<script src="/webassets/base/cd2c0272_tracking.js" type="text/javascript"></script>
+  </body>
+</html>
